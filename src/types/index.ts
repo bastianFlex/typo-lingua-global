@@ -21,6 +21,10 @@ export interface PhraseCollection {
   [key: string]: Phrase[];
 }
 
+export type Difficulty = 'easy' | 'medium' | 'hard' | 'expert';
+
+export type TimeOption = '1' | '2' | '3' | '4' | '5' | 'infinite';
+
 export interface TypingResult {
   id: string;
   date: string;
@@ -31,6 +35,12 @@ export interface TypingResult {
   correctChars: number;
   totalChars: number;
   duration: number;
+  difficulty: Difficulty;
 }
 
 export type TypingStatus = 'idle' | 'started' | 'finished';
+
+export interface AudioFeedback {
+  enabled: boolean;
+  volume: number;
+}

@@ -1,17 +1,18 @@
 
-import { TypingResult, LanguageCode } from '@/types';
 import { v4 as uuidv4 } from 'uuid';
+import { LanguageCode, TypingResult, Difficulty } from '@/types';
 
 const STORAGE_KEY = 'typing_results';
 
 export const saveResult = (
-  language: LanguageCode,
-  wpm: number,
-  accuracy: number,
-  errors: number,
-  totalChars: number,
-  correctChars: number,
-  duration: number
+  language: LanguageCode, 
+  wpm: number, 
+  accuracy: number, 
+  errors: number, 
+  totalChars: number, 
+  correctChars: number, 
+  duration: number,
+  difficulty: Difficulty = 'easy' // Default to easy if not provided
 ): TypingResult => {
   const result: TypingResult = {
     id: uuidv4(),
@@ -22,19 +23,23 @@ export const saveResult = (
     errors,
     totalChars,
     correctChars,
-    duration
+    duration,
+    difficulty
   };
 
   const existingResults = getResults();
-  localStorage.setItem(STORAGE_KEY, JSON.stringify([result, ...existingResults]));
-  
+  localStorage.setItem(STORAGE_KEY, JSON.stringify([
+    result,
+    ...existingResults
+  ]));
+
   return result;
 };
 
 export const getResults = (): TypingResult[] => {
   const resultsJson = localStorage.getItem(STORAGE_KEY);
   if (!resultsJson) return [];
-  
+
   try {
     const results = JSON.parse(resultsJson);
     return Array.isArray(results) ? results : [];
