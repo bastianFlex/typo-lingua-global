@@ -18,7 +18,7 @@ export interface Phrase {
 }
 
 export interface PhraseCollection {
-  [key in LanguageCode]: Phrase[];
+  [key: string]: Phrase[];
 }
 
 export interface TypingResult {
