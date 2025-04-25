@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Check, Language } from 'lucide-react';
+import { Languages, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -53,7 +53,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ selectedPair, onLan
   return (
     <div className="flex flex-col space-y-2">
       <div className="flex items-center space-x-2">
-        <Language className="h-5 w-5 text-gray-300" />
+        <Languages className="h-5 w-5 text-gray-300" />
         <span className="text-gray-300">Idioma</span>
       </div>
       <DropdownMenu>
