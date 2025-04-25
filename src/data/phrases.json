@@ -23,10 +23,10 @@
       }
     },
     {
-      "text": "A educação é o passaporte para o futuro.",
+      "text": "A educação é o passaporte para o futuro, pois o amanhã pertence àqueles que se preparam hoje.",
       "translation": {
-        "en": "Education is the passport to the future.",
-        "fr": "L'éducation est le passeport pour l'avenir."
+        "en": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+        "fr": "L'éducation est le passeport pour l'avenir, car demain appartient à ceux qui s'y préparent aujourd'hui."
       }
     },
     {
@@ -34,6 +34,34 @@
       "translation": {
         "en": "Nothing ventured, nothing gained.",
         "fr": "Qui ne risque rien n'a rien."
+      }
+    },
+    {
+      "text": "A persistência é o caminho do êxito. Mesmo que você tropece e caia sete vezes, levante-se na oitava, pois o importante não é quantas vezes você cai, mas quantas vezes você se levanta.",
+      "translation": {
+        "en": "Persistence is the path to success. Even if you stumble and fall seven times, get up on the eighth, because what matters is not how many times you fall, but how many times you get up.",
+        "fr": "La persévérance est la voie du succès. Même si vous trébuchez et tombez sept fois, relevez-vous à la huitième, car ce qui compte n'est pas combien de fois vous tombez, mais combien de fois vous vous relevez."
+      }
+    },
+    {
+      "text": "O sucesso é a soma de pequenos esforços repetidos dia após dia. Não existe um caminho fácil, o que existe é persistência e dedicação.",
+      "translation": {
+        "en": "Success is the sum of small efforts repeated day after day. There is no easy path, what exists is persistence and dedication.",
+        "fr": "Le succès est la somme de petits efforts répétés jour après jour. Il n'y a pas de chemin facile, ce qui existe c'est la persistance et le dévouement."
+      }
+    },
+    {
+      "text": "Toda grande jornada começa com um único passo.",
+      "translation": {
+        "en": "Every great journey begins with a single step.",
+        "fr": "Tout grand voyage commence par un seul pas."
+      }
+    },
+    {
+      "text": "Se você quer algo que nunca teve, precisa fazer algo que nunca fez. O caminho para o êxito está na busca constante de conhecimento e na disposição para sair da sua zona de conforto.",
+      "translation": {
+        "en": "If you want something you've never had, you must be willing to do something you've never done. The path to success lies in the constant pursuit of knowledge and willingness to step out of your comfort zone.",
+        "fr": "Si vous voulez quelque chose que vous n'avez jamais eu, vous devez faire quelque chose que vous n'avez jamais fait. Le chemin vers le succès réside dans la recherche constante de connaissances et dans la volonté de sortir de votre zone de confort."
       }
     }
   ],
@@ -60,10 +88,10 @@
       }
     },
     {
-      "text": "Education is the passport to the future.",
+      "text": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
       "translation": {
-        "pt": "A educação é o passaporte para o futuro.",
-        "fr": "L'éducation est le passeport pour l'avenir."
+        "pt": "A educação é o passaporte para o futuro, pois o amanhã pertence àqueles que se preparam hoje.",
+        "fr": "L'éducation est le passeport pour l'avenir, car demain appartient à ceux qui s'y préparent aujourd'hui."
       }
     },
     {
@@ -71,6 +99,20 @@
       "translation": {
         "pt": "Deus ajuda quem cedo madruga.",
         "fr": "L'avenir appartient à ceux qui se lèvent tôt."
+      }
+    },
+    {
+      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts. Every achievement starts with the decision to try and the commitment to keep going even when things get difficult.",
+      "translation": {
+        "pt": "O sucesso não é definitivo, o fracasso não é fatal: é a coragem de continuar que conta. Cada conquista começa com a decisão de tentar e o compromisso de continuar mesmo quando as coisas ficam difíceis.",
+        "fr": "Le succès n'est pas définitif, l'échec n'est pas fatal: c'est le courage de continuer qui compte. Chaque réalisation commence par la décision d'essayer et l'engagement de continuer même quand les choses deviennent difficiles."
+      }
+    },
+    {
+      "text": "The secret of getting ahead is getting started. The secret of getting started is breaking your complex overwhelming tasks into small manageable tasks, and then starting on the first one.",
+      "translation": {
+        "pt": "O segredo para avançar é começar. O segredo para começar é dividir tarefas complexas e esmagadoras em pequenas tarefas gerenciáveis e, em seguida, começar com a primeira.",
+        "fr": "Le secret pour avancer est de commencer. Le secret pour commencer est de diviser vos tâches complexes et écrasantes en petites tâches gérables, puis de commencer par la première."
       }
     }
   ],
@@ -97,10 +139,10 @@
       }
     },
     {
-      "text": "L'éducation est le passeport pour l'avenir.",
+      "text": "L'éducation est le passeport pour l'avenir, car demain appartient à ceux qui s'y préparent aujourd'hui.",
       "translation": {
-        "pt": "A educação é o passaporte para o futuro.",
-        "en": "Education is the passport to the future."
+        "pt": "A educação é o passaporte para o futuro, pois o amanhã pertence àqueles que se preparam hoje.",
+        "en": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
       }
     },
     {
@@ -108,6 +150,20 @@
       "translation": {
         "pt": "A verdadeira educação significa mais do que a busca pelo conhecimento.",
         "en": "True education means more than the pursuit of knowledge."
+      }
+    },
+    {
+      "text": "Le succès n'est pas la clé du bonheur. Le bonheur est la clé du succès. Si vous aimez ce que vous faites, vous réussirez. La passion et la persévérance sont les ingrédients essentiels pour atteindre vos objectifs.",
+      "translation": {
+        "pt": "O sucesso não é a chave para a felicidade. A felicidade é a chave para o sucesso. Se você ama o que faz, terá sucesso. A paixão e a perseverança são os ingredientes essenciais para alcançar seus objetivos.",
+        "en": "Success is not the key to happiness. Happiness is the key to success. If you love what you do, you will be successful. Passion and perseverance are the essential ingredients to achieve your goals."
+      }
+    },
+    {
+      "text": "La vie c'est comme une bicyclette, il faut avancer pour ne pas perdre l'équilibre.",
+      "translation": {
+        "pt": "A vida é como andar de bicicleta, é preciso seguir em frente para manter o equilíbrio.",
+        "en": "Life is like riding a bicycle, you have to keep moving forward to maintain balance."
       }
     }
   ]

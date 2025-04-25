@@ -339,8 +339,10 @@ const TypingArea: React.FC<TypingAreaProps> = ({
           </div>
           
           {timeOption !== 'infinite' && (
-            <Progress value={progressPercent} className="h-2 mb-4" 
-                     indicatorClassName="bg-gradient-to-r from-app-light-blue to-app-purple" />
+            <Progress 
+              value={progressPercent} 
+              className="h-2 mb-4 bg-gray-700" 
+            />
           )}
 
           <div className="w-full mb-4">

@@ -35,16 +35,16 @@ const Index: React.FC = () => {
   });
 
   useEffect(() => {
-    // Carrega os resultados salvos
+    // Load saved results
     const savedResults = getResults();
     setResults(savedResults);
   }, []);
 
   useEffect(() => {
-    // Carrega uma nova frase quando o idioma muda
-    const phrase = getRandomPhrase(languagePair.source);
+    // Load a new phrase when language or difficulty changes
+    const phrase = getRandomPhrase(languagePair.source, difficulty);
     setCurrentPhrase(phrase);
-  }, [languagePair]);
+  }, [languagePair, difficulty]);
 
   const handleLanguageChange = (pair: LanguagePair) => {
     setLanguagePair(pair);
@@ -52,7 +52,7 @@ const Index: React.FC = () => {
 
   const handleDifficultyChange = (newDifficulty: Difficulty) => {
     setDifficulty(newDifficulty);
-    // You could adjust phrase difficulty based on this setting
+    // This will trigger the useEffect to load a new phrase with the proper difficulty
   };
 
   const handleTimeChange = (newTime: TimeOption) => {
@@ -64,7 +64,7 @@ const Index: React.FC = () => {
   };
 
   const handleNextPhrase = () => {
-    const phrase = getRandomPhrase(languagePair.source);
+    const phrase = getRandomPhrase(languagePair.source, difficulty);
     setCurrentPhrase(phrase);
   };
 
@@ -80,7 +80,8 @@ const Index: React.FC = () => {
         errors,
         totalChars,
         correctChars,
-        duration
+        duration,
+        difficulty  // Pass the difficulty to save it with the result
       );
       
       setResults((prev) => [result, ...prev]);
@@ -89,7 +90,7 @@ const Index: React.FC = () => {
 
   return (
     <Layout>
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <LanguageSelector
             selectedPair={languagePair}
