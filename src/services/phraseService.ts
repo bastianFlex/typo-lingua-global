@@ -10,41 +10,50 @@ export const getPhrasesByLanguage = (language: LanguageCode): Phrase[] => {
 export const getRandomPhrase = (language: LanguageCode, difficulty: Difficulty = 'easy'): Phrase => {
   const allPhrases = getPhrasesByLanguage(language);
   
-  // Filter phrases by difficulty
+  // Filtrar frases pela dificuldade
   let filteredPhrases: Phrase[] = [];
+  
+  console.log(`Getting phrase with difficulty: ${difficulty}`);
   
   switch (difficulty) {
     case 'easy':
-      // Easy phrases: Short phrases (less than 30 characters)
-      filteredPhrases = allPhrases.filter(phrase => phrase.text.length < 30);
+      // Frases fáceis: curtas (menos de 30 caracteres)
+      filteredPhrases = allPhrases.filter(phrase => phrase.text.length < 50);
       break;
     case 'medium':
-      // Medium phrases: Between 30 and 60 characters
+      // Frases médias: entre 50 e 100 caracteres
       filteredPhrases = allPhrases.filter(phrase => 
-        phrase.text.length >= 30 && phrase.text.length < 60
+        phrase.text.length >= 50 && phrase.text.length < 100
       );
       break;
     case 'hard':
-      // Hard phrases: Between 60 and 100 characters
+      // Frases difíceis: entre 100 e 150 caracteres
       filteredPhrases = allPhrases.filter(phrase => 
-        phrase.text.length >= 60 && phrase.text.length < 100
+        phrase.text.length >= 100 && phrase.text.length < 150
       );
       break;
     case 'expert':
-      // Expert phrases: More than 100 characters
-      filteredPhrases = allPhrases.filter(phrase => phrase.text.length >= 100);
+      // Frases expert: mais de 150 caracteres
+      filteredPhrases = allPhrases.filter(phrase => phrase.text.length >= 150);
       break;
     default:
       filteredPhrases = allPhrases;
   }
   
-  // If no phrases match the difficulty, fall back to all phrases
+  console.log(`Found ${filteredPhrases.length} phrases matching difficulty ${difficulty}`);
+  
+  // Se nenhuma frase corresponder à dificuldade, use todas as frases
   if (filteredPhrases.length === 0) {
+    console.log(`No phrases match difficulty ${difficulty}, using all phrases`);
     filteredPhrases = allPhrases;
   }
   
   const randomIndex = Math.floor(Math.random() * filteredPhrases.length);
-  return filteredPhrases[randomIndex];
+  const selectedPhrase = filteredPhrases[randomIndex];
+  
+  console.log(`Selected phrase (${selectedPhrase.text.length} chars): ${selectedPhrase.text.substring(0, 30)}...`);
+  
+  return selectedPhrase;
 };
 
 export const addCustomPhrase = (

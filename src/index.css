@@ -81,6 +81,119 @@
     @apply border-border;
   }
   body {
-    @apply bg-app-blue text-foreground;
+    @apply bg-gradient-to-bl from-indigo-950 via-blue-900 to-blue-950 text-foreground;
+    background-attachment: fixed;
   }
 }
+
+/* Animações */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 15px rgba(138, 85, 230, 0.5);
+  }
+  50% {
+    opacity: 0.8;
+    box-shadow: 0 0 25px rgba(138, 85, 230, 0.8);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Classes customizadas */
+.glass-card {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl shadow-lg;
+}
+
+.gradient-border {
+  @apply relative border-0 before:absolute before:inset-0 before:-z-10 before:p-[2px] before:rounded-xl before:bg-gradient-to-r before:from-app-light-blue before:via-app-purple before:to-app-light-blue overflow-hidden;
+}
+
+.typing-card {
+  @apply glass-card p-6 animate-[fadeInUp_0.5s_ease-out];
+}
+
+.shimmer-bg {
+  background: linear-gradient(90deg, 
+    rgba(255,255,255,0.03) 0%, 
+    rgba(255,255,255,0.08) 50%, 
+    rgba(255,255,255,0.03) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+.pulse-effect {
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+.floating-element {
+  animation: float 5s infinite ease-in-out;
+}
+
+.hover-scale {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+.stats-card {
+  @apply glass-card p-4 transition-all duration-300 hover:bg-white/20 hover:border-app-purple/50;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-app-light-blue to-app-purple bg-clip-text text-transparent;
+}
+
+.tab-active {
+  @apply relative after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:bg-gradient-to-r after:from-app-light-blue after:to-app-purple;
+}
+
+/* Estilo do progress bar */
+.animated-progress {
+  @apply h-2 bg-gray-700/50 rounded-full overflow-hidden relative;
+}
+
+.animated-progress::after {
+  content: "";
+  @apply absolute top-0 left-0 h-full w-full bg-gradient-to-r from-app-light-blue to-app-purple;
+  background-size: 200% 100%;
+  animation: gradientShift 3s infinite linear;
+}
+

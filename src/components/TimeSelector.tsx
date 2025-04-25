@@ -15,50 +15,40 @@ const TimeSelector: React.FC<TimeSelectorProps> = ({
   onTimeChange 
 }) => {
   return (
-    <div className="flex flex-col space-y-2">
+    <div className="flex flex-col space-y-3">
       <div className="flex items-center space-x-2">
-        <Clock className="h-5 w-5 text-gray-300" />
-        <span className="text-gray-300">Tempo</span>
+        <Clock className="h-5 w-5 text-sky-300" />
+        <span className="text-white">Tempo</span>
       </div>
-      <div className="bg-app-blue/50 rounded-lg p-4 border border-gray-700">
+      <div className="glass-card p-4">
         <RadioGroup 
           value={selectedTime} 
           onValueChange={(value) => onTimeChange(value as TimeOption)}
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3"
         >
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="1" id="t1" className="text-app-light-blue" />
-            <Label htmlFor="t1" className="text-white hover:text-app-light-blue transition-colors cursor-pointer">
-              1 min
-            </Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="2" id="t2" className="text-app-light-blue" />
-            <Label htmlFor="t2" className="text-white hover:text-app-light-blue transition-colors cursor-pointer">
-              2 min
-            </Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="3" id="t3" className="text-app-light-blue" />
-            <Label htmlFor="t3" className="text-white hover:text-app-light-blue transition-colors cursor-pointer">
-              3 min
-            </Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="4" id="t4" className="text-app-light-blue" />
-            <Label htmlFor="t4" className="text-white hover:text-app-light-blue transition-colors cursor-pointer">
-              4 min
-            </Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="5" id="t5" className="text-app-light-blue" />
-            <Label htmlFor="t5" className="text-white hover:text-app-light-blue transition-colors cursor-pointer">
-              5 min
-            </Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="infinite" id="infinite" className="text-app-purple" />
-            <Label htmlFor="infinite" className="text-white hover:text-app-purple transition-colors cursor-pointer flex items-center">
+          {["1", "2", "3", "4", "5"].map((time) => (
+            <div key={time} className="hover-scale">
+              <RadioGroupItem value={time} id={`t${time}`} className="sr-only" />
+              <Label 
+                htmlFor={`t${time}`} 
+                className={`flex justify-center items-center py-2 px-3 rounded-lg cursor-pointer transition-all duration-300
+                  ${selectedTime === time 
+                    ? 'bg-gradient-to-r from-sky-500/60 to-sky-400/60 text-white shadow-lg shadow-sky-500/20'
+                    : 'bg-white/10 text-white/70 hover:bg-white/20'}`}
+              >
+                {time} min
+              </Label>
+            </div>
+          ))}
+          <div className="hover-scale">
+            <RadioGroupItem value="infinite" id="infinite" className="sr-only" />
+            <Label 
+              htmlFor="infinite" 
+              className={`flex justify-center items-center py-2 px-3 rounded-lg cursor-pointer transition-all duration-300
+                ${selectedTime === 'infinite' 
+                  ? 'bg-gradient-to-r from-app-purple/60 to-violet-500/60 text-white shadow-lg shadow-app-purple/20'
+                  : 'bg-white/10 text-white/70 hover:bg-white/20'}`}
+            >
               <Infinity className="w-4 h-4 mr-1" />
               Infinito
             </Label>

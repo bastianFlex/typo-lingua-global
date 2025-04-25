@@ -26,7 +26,7 @@ const Index: React.FC = () => {
   const [results, setResults] = useState<TypingResult[]>([]);
   const [activeTab, setActiveTab] = useState('typing');
   
-  // New state variables for the new features
+  // State variables for the features
   const [difficulty, setDifficulty] = useState<Difficulty>('easy');
   const [timeOption, setTimeOption] = useState<TimeOption>('1');
   const [audioSettings, setAudioSettings] = useState<AudioFeedback>({
@@ -52,7 +52,6 @@ const Index: React.FC = () => {
 
   const handleDifficultyChange = (newDifficulty: Difficulty) => {
     setDifficulty(newDifficulty);
-    // This will trigger the useEffect to load a new phrase with the proper difficulty
   };
 
   const handleTimeChange = (newTime: TimeOption) => {
@@ -81,7 +80,7 @@ const Index: React.FC = () => {
         totalChars,
         correctChars,
         duration,
-        difficulty  // Pass the difficulty to save it with the result
+        difficulty
       );
       
       setResults((prev) => [result, ...prev]);
@@ -90,46 +89,49 @@ const Index: React.FC = () => {
 
   return (
     <Layout>
-      <div className="max-w-5xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          <LanguageSelector
-            selectedPair={languagePair}
-            onLanguageChange={handleLanguageChange}
-          />
-          <DifficultySelector 
-            selectedDifficulty={difficulty}
-            onDifficultyChange={handleDifficultyChange}
-          />
-        </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <TimeSelector
-            selectedTime={timeOption}
-            onTimeChange={handleTimeChange}
-          />
-          <AudioSettings
-            audioSettings={audioSettings}
-            onAudioSettingsChange={handleAudioSettingsChange}
-          />
+      <div className="max-w-6xl mx-auto px-4">
+        {/* Settings Panel with gradient border */}
+        <div className="glass-card mb-8 p-6 gradient-border">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <LanguageSelector
+              selectedPair={languagePair}
+              onLanguageChange={handleLanguageChange}
+            />
+            <DifficultySelector 
+              selectedDifficulty={difficulty}
+              onDifficultyChange={handleDifficultyChange}
+            />
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <TimeSelector
+              selectedTime={timeOption}
+              onTimeChange={handleTimeChange}
+            />
+            <AudioSettings
+              audioSettings={audioSettings}
+              onAudioSettingsChange={handleAudioSettingsChange}
+            />
+          </div>
         </div>
 
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid grid-cols-2 mb-8">
+          <TabsList className="grid grid-cols-2 mb-8 glass-card p-1 rounded-xl">
             <TabsTrigger 
               value="typing" 
-              className="text-lg py-3 data-[state=active]:bg-app-purple data-[state=active]:text-white transition-all"
+              className="text-lg py-3 rounded-lg data-[state=active]:bg-gradient-to-r data-[state=active]:from-app-light-blue/90 data-[state=active]:to-app-purple/90 data-[state=active]:text-white transition-all duration-300"
             >
               Digitação
             </TabsTrigger>
             <TabsTrigger 
               value="history" 
-              className="text-lg py-3 data-[state=active]:bg-app-purple data-[state=active]:text-white transition-all"
+              className="text-lg py-3 rounded-lg data-[state=active]:bg-gradient-to-r data-[state=active]:from-app-light-blue/90 data-[state=active]:to-app-purple/90 data-[state=active]:text-white transition-all duration-300"
             >
               Histórico
             </TabsTrigger>
           </TabsList>
           
-          <TabsContent value="typing" className="mt-0 animate-fade-in">
+          <TabsContent value="typing" className="mt-0 animate-[fadeInUp_0.4s_ease-out]">
             {currentPhrase && (
               <TypingArea
                 phrase={currentPhrase}
@@ -142,9 +144,9 @@ const Index: React.FC = () => {
             )}
           </TabsContent>
           
-          <TabsContent value="history" className="mt-0 animate-fade-in">
-            <div className="bg-gradient-to-br from-app-blue/50 to-app-blue/60 p-6 rounded-lg border border-gray-700 shadow-lg">
-              <h2 className="text-2xl font-bold mb-4 text-white">Seu Histórico de Resultados</h2>
+          <TabsContent value="history" className="mt-0 animate-[fadeInUp_0.4s_ease-out]">
+            <div className="glass-card gradient-border p-6">
+              <h2 className="text-2xl font-bold mb-6 gradient-text">Seu Histórico de Resultados</h2>
               <HistoryResults results={results} />
             </div>
           </TabsContent>
