@@ -1,0 +1,114 @@
+
+{
+  "pt": [
+    {
+      "text": "A prática leva à perfeição.",
+      "translation": {
+        "en": "Practice makes perfect.",
+        "fr": "C'est en forgeant qu'on devient forgeron."
+      }
+    },
+    {
+      "text": "O conhecimento é a chave para o sucesso.",
+      "translation": {
+        "en": "Knowledge is the key to success.",
+        "fr": "La connaissance est la clé du succès."
+      }
+    },
+    {
+      "text": "Nunca é tarde demais para aprender algo novo.",
+      "translation": {
+        "en": "It's never too late to learn something new.",
+        "fr": "Il n'est jamais trop tard pour apprendre quelque chose de nouveau."
+      }
+    },
+    {
+      "text": "A educação é o passaporte para o futuro.",
+      "translation": {
+        "en": "Education is the passport to the future.",
+        "fr": "L'éducation est le passeport pour l'avenir."
+      }
+    },
+    {
+      "text": "Quem não arrisca, não petisca.",
+      "translation": {
+        "en": "Nothing ventured, nothing gained.",
+        "fr": "Qui ne risque rien n'a rien."
+      }
+    }
+  ],
+  "en": [
+    {
+      "text": "Practice makes perfect.",
+      "translation": {
+        "pt": "A prática leva à perfeição.",
+        "fr": "C'est en forgeant qu'on devient forgeron."
+      }
+    },
+    {
+      "text": "Knowledge is the key to success.",
+      "translation": {
+        "pt": "O conhecimento é a chave para o sucesso.",
+        "fr": "La connaissance est la clé du succès."
+      }
+    },
+    {
+      "text": "It's never too late to learn something new.",
+      "translation": {
+        "pt": "Nunca é tarde demais para aprender algo novo.",
+        "fr": "Il n'est jamais trop tard pour apprendre quelque chose de nouveau."
+      }
+    },
+    {
+      "text": "Education is the passport to the future.",
+      "translation": {
+        "pt": "A educação é o passaporte para o futuro.",
+        "fr": "L'éducation est le passeport pour l'avenir."
+      }
+    },
+    {
+      "text": "The early bird catches the worm.",
+      "translation": {
+        "pt": "Deus ajuda quem cedo madruga.",
+        "fr": "L'avenir appartient à ceux qui se lèvent tôt."
+      }
+    }
+  ],
+  "fr": [
+    {
+      "text": "C'est en forgeant qu'on devient forgeron.",
+      "translation": {
+        "pt": "A prática leva à perfeição.",
+        "en": "Practice makes perfect."
+      }
+    },
+    {
+      "text": "La connaissance est la clé du succès.",
+      "translation": {
+        "pt": "O conhecimento é a chave para o sucesso.",
+        "en": "Knowledge is the key to success."
+      }
+    },
+    {
+      "text": "Il n'est jamais trop tard pour apprendre quelque chose de nouveau.",
+      "translation": {
+        "pt": "Nunca é tarde demais para aprender algo novo.",
+        "en": "It's never too late to learn something new."
+      }
+    },
+    {
+      "text": "L'éducation est le passeport pour l'avenir.",
+      "translation": {
+        "pt": "A educação é o passaporte para o futuro.",
+        "en": "Education is the passport to the future."
+      }
+    },
+    {
+      "text": "La vraie éducation signifie plus que la poursuite du savoir.",
+      "translation": {
+        "pt": "A verdadeira educação significa mais do que a busca pelo conhecimento.",
+        "en": "True education means more than the pursuit of knowledge."
+      }
+    }
+  ]
+}
