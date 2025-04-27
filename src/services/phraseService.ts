@@ -1,10 +1,14 @@
-
 import { LanguageCode, Phrase, PhraseCollection, Difficulty } from '@/types';
 import phrasesData from '@/data/phrases.json';
 
 export const getPhrasesByLanguage = (language: LanguageCode): Phrase[] => {
   const phrases = (phrasesData as PhraseCollection)[language] || [];
   return phrases;
+};
+
+export const getPhrasesByDifficulty = (language: LanguageCode, difficulty: Difficulty): Phrase[] => {
+  const allPhrases = getPhrasesByLanguage(language);
+  return allPhrases.filter(phrase => phrase.difficulty === difficulty);
 };
 
 export const getRandomPhrase = (language: LanguageCode, difficulty: Difficulty = 'easy'): Phrase => {

@@ -3,168 +3,1741 @@
   "pt": [
     {
       "text": "A prática leva à perfeição.",
+      "difficulty": "easy",
       "translation": {
         "en": "Practice makes perfect.",
         "fr": "C'est en forgeant qu'on devient forgeron."
-      }
+      },
+      "mapping": [
+        { "original": "A prática", "translated": "Practice" },
+        { "original": "leva à", "translated": "makes" },
+        { "original": "perfeição", "translated": "perfect" }
+      ]
     },
     {
       "text": "O conhecimento é a chave para o sucesso.",
+      "difficulty": "easy",
       "translation": {
         "en": "Knowledge is the key to success.",
         "fr": "La connaissance est la clé du succès."
-      }
+      },
+      "mapping": [
+        { "original": "O conhecimento", "translated": "Knowledge" },
+        { "original": "é", "translated": "is" },
+        { "original": "a chave", "translated": "the key" },
+        { "original": "para o sucesso", "translated": "to success" }
+      ]
     },
     {
       "text": "Nunca é tarde demais para aprender algo novo.",
+      "difficulty": "easy",
       "translation": {
         "en": "It's never too late to learn something new.",
         "fr": "Il n'est jamais trop tard pour apprendre quelque chose de nouveau."
-      }
-    },
-    {
-      "text": "A educação é o passaporte para o futuro, pois o amanhã pertence àqueles que se preparam hoje.",
-      "translation": {
-        "en": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
-        "fr": "L'éducation est le passeport pour l'avenir, car demain appartient à ceux qui s'y préparent aujourd'hui."
-      }
+      },
+      "mapping": [
+        { "original": "Nunca", "translated": "Never" },
+        { "original": "é tarde demais", "translated": "is too late" },
+        { "original": "para aprender", "translated": "to learn" },
+        { "original": "algo novo", "translated": "something new" }
+      ]
     },
     {
       "text": "Quem não arrisca, não petisca.",
+      "difficulty": "easy",
       "translation": {
         "en": "Nothing ventured, nothing gained.",
         "fr": "Qui ne risque rien n'a rien."
-      }
-    },
-    {
-      "text": "A persistência é o caminho do êxito. Mesmo que você tropece e caia sete vezes, levante-se na oitava, pois o importante não é quantas vezes você cai, mas quantas vezes você se levanta.",
-      "translation": {
-        "en": "Persistence is the path to success. Even if you stumble and fall seven times, get up on the eighth, because what matters is not how many times you fall, but how many times you get up.",
-        "fr": "La persévérance est la voie du succès. Même si vous trébuchez et tombez sept fois, relevez-vous à la huitième, car ce qui compte n'est pas combien de fois vous tombez, mais combien de fois vous vous relevez."
-      }
-    },
-    {
-      "text": "O sucesso é a soma de pequenos esforços repetidos dia após dia. Não existe um caminho fácil, o que existe é persistência e dedicação.",
-      "translation": {
-        "en": "Success is the sum of small efforts repeated day after day. There is no easy path, what exists is persistence and dedication.",
-        "fr": "Le succès est la somme de petits efforts répétés jour après jour. Il n'y a pas de chemin facile, ce qui existe c'est la persistance et le dévouement."
-      }
+      },
+      "mapping": [
+        { "original": "Quem não arrisca", "translated": "Nothing ventured" },
+        { "original": "não petisca", "translated": "nothing gained" }
+      ]
     },
     {
       "text": "Toda grande jornada começa com um único passo.",
+      "difficulty": "easy",
       "translation": {
         "en": "Every great journey begins with a single step.",
         "fr": "Tout grand voyage commence par un seul pas."
-      }
+      },
+      "mapping": [
+        { "original": "Toda grande", "translated": "Every great" },
+        { "original": "jornada", "translated": "journey" },
+        { "original": "começa", "translated": "begins" },
+        { "original": "com um único", "translated": "with a single" },
+        { "original": "passo", "translated": "step" }
+      ]
     },
     {
-      "text": "Se você quer algo que nunca teve, precisa fazer algo que nunca fez. O caminho para o êxito está na busca constante de conhecimento e na disposição para sair da sua zona de conforto.",
+      "text": "O tempo é o recurso mais valioso que temos.",
+      "difficulty": "easy",
       "translation": {
-        "en": "If you want something you've never had, you must be willing to do something you've never done. The path to success lies in the constant pursuit of knowledge and willingness to step out of your comfort zone.",
-        "fr": "Si vous voulez quelque chose que vous n'avez jamais eu, vous devez faire quelque chose que vous n'avez jamais fait. Le chemin vers le succès réside dans la recherche constante de connaissances et dans la volonté de sortir de votre zone de confort."
-      }
-    }
-  ],
-  "en": [
-    {
-      "text": "Practice makes perfect.",
-      "translation": {
-        "pt": "A prática leva à perfeição.",
-        "fr": "C'est en forgeant qu'on devient forgeron."
-      }
+        "en": "Time is the most valuable resource we have.",
+        "fr": "Le temps est la ressource la plus précieuse que nous avons."
+      },
+      "mapping": [
+        { "original": "O tempo", "translated": "Time" },
+        { "original": "é", "translated": "is" },
+        { "original": "o recurso", "translated": "the resource" },
+        { "original": "mais valioso", "translated": "most valuable" },
+        { "original": "que temos", "translated": "we have" }
+      ]
     },
     {
-      "text": "Knowledge is the key to success.",
+      "text": "A vida é feita de escolhas.",
+      "difficulty": "easy",
       "translation": {
-        "pt": "O conhecimento é a chave para o sucesso.",
-        "fr": "La connaissance est la clé du succès."
-      }
+        "en": "Life is made of choices.",
+        "fr": "La vie est faite de choix."
+      },
+      "mapping": [
+        { "original": "A vida", "translated": "Life" },
+        { "original": "é feita", "translated": "is made" },
+        { "original": "de escolhas", "translated": "of choices" }
+      ]
     },
     {
-      "text": "It's never too late to learn something new.",
+      "text": "Cada dia é uma nova oportunidade.",
+      "difficulty": "easy",
       "translation": {
-        "pt": "Nunca é tarde demais para aprender algo novo.",
-        "fr": "Il n'est jamais trop tard pour apprendre quelque chose de nouveau."
-      }
+        "en": "Each day is a new opportunity.",
+        "fr": "Chaque jour est une nouvelle opportunité."
+      },
+      "mapping": [
+        { "original": "Cada dia", "translated": "Each day" },
+        { "original": "é", "translated": "is" },
+        { "original": "uma nova", "translated": "a new" },
+        { "original": "oportunidade", "translated": "opportunity" }
+      ]
     },
     {
-      "text": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+      "text": "O sorriso é a melhor linguagem universal.",
+      "difficulty": "easy",
       "translation": {
-        "pt": "A educação é o passaporte para o futuro, pois o amanhã pertence àqueles que se preparam hoje.",
+        "en": "A smile is the best universal language.",
+        "fr": "Le sourire est le meilleur langage universel."
+      },
+      "mapping": [
+        { "original": "O sorriso", "translated": "A smile" },
+        { "original": "é", "translated": "is" },
+        { "original": "a melhor", "translated": "the best" },
+        { "original": "linguagem universal", "translated": "universal language" }
+      ]
+    },
+    {
+      "text": "Pequenos gestos fazem grandes diferenças.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Small gestures make big differences.",
+        "fr": "Les petits gestes font de grandes différences."
+      },
+      "mapping": [
+        { "original": "Pequenos gestos", "translated": "Small gestures" },
+        { "original": "fazem", "translated": "make" },
+        { "original": "grandes diferenças", "translated": "big differences" }
+      ]
+    },
+    {
+      "text": "Aprenda com os erros do passado.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Learn from the mistakes of the past.",
+        "fr": "Apprends des erreurs du passé."
+      },
+      "mapping": [
+        { "original": "Aprenda", "translated": "Learn" },
+        { "original": "com os erros", "translated": "from the mistakes" },
+        { "original": "do passado", "translated": "of the past" }
+      ]
+    },
+    {
+      "text": "Sonhar é o primeiro passo para realizar.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Dreaming is the first step to achievement.",
+        "fr": "Rêver est la première étape vers la réalisation."
+      },
+      "mapping": [
+        { "original": "Sonhar", "translated": "Dreaming" },
+        { "original": "é", "translated": "is" },
+        { "original": "o primeiro passo", "translated": "the first step" },
+        { "original": "para realizar", "translated": "to achievement" }
+      ]
+    },
+    {
+      "text": "A paciência é uma virtude valiosa.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Patience is a valuable virtue.",
+        "fr": "La patience est une vertu précieuse."
+      },
+      "mapping": [
+        { "original": "A paciência", "translated": "Patience" },
+        { "original": "é", "translated": "is" },
+        { "original": "uma virtude", "translated": "a virtue" },
+        { "original": "valiosa", "translated": "valuable" }
+      ]
+    },
+    {
+      "text": "O respeito é a base de toda relação.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Respect is the foundation of every relationship.",
+        "fr": "Le respect est la base de toute relation."
+      },
+      "mapping": [
+        { "original": "O respeito", "translated": "Respect" },
+        { "original": "é", "translated": "is" },
+        { "original": "a base", "translated": "the foundation" },
+        { "original": "de toda relação", "translated": "of every relationship" }
+      ]
+    },
+    {
+      "text": "Leia mais, aprenda mais.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Read more, learn more.",
+        "fr": "Lis plus, apprends plus."
+      },
+      "mapping": [
+        { "original": "Leia mais", "translated": "Read more" },
+        { "original": "aprenda mais", "translated": "learn more" }
+      ]
+    },
+    {
+      "text": "A curiosidade é o motor da descoberta.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Curiosity is the engine of discovery.",
+        "fr": "La curiosité est le moteur de la découverte."
+      },
+      "mapping": [
+        { "original": "A curiosidade", "translated": "Curiosity" },
+        { "original": "é", "translated": "is" },
+        { "original": "o motor", "translated": "the engine" },
+        { "original": "da descoberta", "translated": "of discovery" }
+      ]
+    },
+    {
+      "text": "Seja a mudança que você quer ver.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Be the change you want to see.",
+        "fr": "Sois le changement que tu veux voir."
+      },
+      "mapping": [
+        { "original": "Seja", "translated": "Be" },
+        { "original": "a mudança", "translated": "the change" },
+        { "original": "que você", "translated": "you" },
+        { "original": "quer ver", "translated": "want to see" }
+      ]
+    },
+    {
+      "text": "O conhecimento liberta.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Knowledge liberates.",
+        "fr": "La connaissance libère."
+      },
+      "mapping": [
+        { "original": "O conhecimento", "translated": "Knowledge" },
+        { "original": "liberta", "translated": "liberates" }
+      ]
+    },
+    {
+      "text": "Agradecer é uma forma de reconhecer.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Gratitude is a form of recognition.",
+        "fr": "La gratitude est une forme de reconnaissance."
+      },
+      "mapping": [
+        { "original": "Agradecer", "translated": "Gratitude" },
+        { "original": "é", "translated": "is" },
+        { "original": "uma forma", "translated": "a form" },
+        { "original": "de reconhecer", "translated": "of recognition" }
+      ]
+    },
+    {
+      "text": "Menos é mais.",
+      "difficulty": "easy",
+      "translation": {
+        "en": "Less is more.",
+        "fr": "Moins c'est plus."
+      },
+      "mapping": [
+        { "original": "Menos", "translated": "Less" },
+        { "original": "é mais", "translated": "is more" }
+      ]
+    },
+    {
+      "text": "A educação é o passaporte para o futuro, pois o amanhã pertence àqueles que se preparam hoje.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
         "fr": "L'éducation est le passeport pour l'avenir, car demain appartient à ceux qui s'y préparent aujourd'hui."
-      }
+      },
+      "mapping": [
+        { "original": "A educação", "translated": "Education" },
+        { "original": "é o passaporte", "translated": "is the passport" },
+        { "original": "para o futuro", "translated": "to the future" },
+        { "original": "pois o amanhã", "translated": "for tomorrow" },
+        { "original": "pertence àqueles", "translated": "belongs to those" },
+        { "original": "que se preparam", "translated": "who prepare for it" },
+        { "original": "hoje", "translated": "today" }
+      ]
     },
     {
-      "text": "The early bird catches the worm.",
+      "text": "A persistência é o caminho do êxito. Mesmo que você tropece e caia, levante-se e continue.",
+      "difficulty": "medium",
       "translation": {
-        "pt": "Deus ajuda quem cedo madruga.",
-        "fr": "L'avenir appartient à ceux qui se lèvent tôt."
-      }
+        "en": "Persistence is the path to success. Even if you stumble and fall, get up and continue.",
+        "fr": "La persévérance est la voie du succès. Même si vous trébuchez et tombez, relevez-vous et continuez."
+      },
+      "mapping": [
+        { "original": "A persistência", "translated": "Persistence" },
+        { "original": "é o caminho", "translated": "is the path" },
+        { "original": "do êxito", "translated": "to success" },
+        { "original": "Mesmo que você", "translated": "Even if you" },
+        { "original": "tropece e caia", "translated": "stumble and fall" },
+        { "original": "levante-se", "translated": "get up" },
+        { "original": "e continue", "translated": "and continue" }
+      ]
     },
     {
-      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts. Every achievement starts with the decision to try and the commitment to keep going even when things get difficult.",
+      "text": "O sucesso é a soma de pequenos esforços repetidos dia após dia. Não existe um caminho fácil.",
+      "difficulty": "medium",
       "translation": {
-        "pt": "O sucesso não é definitivo, o fracasso não é fatal: é a coragem de continuar que conta. Cada conquista começa com a decisão de tentar e o compromisso de continuar mesmo quando as coisas ficam difíceis.",
-        "fr": "Le succès n'est pas définitif, l'échec n'est pas fatal: c'est le courage de continuer qui compte. Chaque réalisation commence par la décision d'essayer et l'engagement de continuer même quand les choses deviennent difficiles."
-      }
+        "en": "Success is the sum of small efforts repeated day after day. There is no easy path.",
+        "fr": "Le succès est la somme de petits efforts répétés jour après jour. Il n'existe pas de chemin facile."
+      },
+      "mapping": [
+        { "original": "O sucesso", "translated": "Success" },
+        { "original": "é a soma", "translated": "is the sum" },
+        { "original": "de pequenos esforços", "translated": "of small efforts" },
+        { "original": "repetidos", "translated": "repeated" },
+        { "original": "dia após dia", "translated": "day after day" },
+        { "original": "Não existe", "translated": "There is no" },
+        { "original": "um caminho fácil", "translated": "easy path" }
+      ]
     },
     {
-      "text": "The secret of getting ahead is getting started. The secret of getting started is breaking your complex overwhelming tasks into small manageable tasks, and then starting on the first one.",
+      "text": "Se você quer algo que nunca teve, precisa fazer algo que nunca fez. O caminho para o êxito está na busca constante.",
+      "difficulty": "medium",
       "translation": {
-        "pt": "O segredo para avançar é começar. O segredo para começar é dividir tarefas complexas e esmagadoras em pequenas tarefas gerenciáveis e, em seguida, começar com a primeira.",
-        "fr": "Le secret pour avancer est de commencer. Le secret pour commencer est de diviser vos tâches complexes et écrasantes en petites tâches gérables, puis de commencer par la première."
-      }
-    }
-  ],
-  "fr": [
-    {
-      "text": "C'est en forgeant qu'on devient forgeron.",
-      "translation": {
-        "pt": "A prática leva à perfeição.",
-        "en": "Practice makes perfect."
-      }
+        "en": "If you want something you've never had, you must do something you've never done. The path to success lies in constant pursuit.",
+        "fr": "Si vous voulez quelque chose que vous n'avez jamais eu, vous devez faire quelque chose que vous n'avez jamais fait. Le chemin vers le succès réside dans une quête constante."
+      },
+      "mapping": [
+        { "original": "Se você quer", "translated": "If you want" },
+        { "original": "algo que nunca teve", "translated": "something you've never had" },
+        { "original": "precisa fazer", "translated": "you must do" },
+        { "original": "algo que nunca fez", "translated": "something you've never done" },
+        { "original": "O caminho", "translated": "The path" },
+        { "original": "para o êxito", "translated": "to success" },
+        { "original": "está na busca constante", "translated": "lies in constant pursuit" }
+      ]
     },
     {
-      "text": "La connaissance est la clé du succès.",
+      "text": "A verdadeira educação consiste em obter o melhor de si mesmo. Qual é o propósito do aprendizado se não for aplicado?",
+      "difficulty": "medium",
       "translation": {
-        "pt": "O conhecimento é a chave para o sucesso.",
-        "en": "Knowledge is the key to success."
-      }
+        "en": "True education consists of drawing the best out of yourself. What is the purpose of learning if it is not applied?",
+        "fr": "La véritable éducation consiste à tirer le meilleur de soi-même. Quel est l'objectif de l'apprentissage s'il n'est pas appliqué ?"
+      },
+      "mapping": [
+        { "original": "A verdadeira educação", "translated": "True education" },
+        { "original": "consiste em", "translated": "consists of" },
+        { "original": "obter o melhor", "translated": "drawing the best" },
+        { "original": "de si mesmo", "translated": "out of yourself" },
+        { "original": "Qual é o propósito", "translated": "What is the purpose" },
+        { "original": "do aprendizado", "translated": "of learning" },
+        { "original": "se não for aplicado", "translated": "if it is not applied" }
+      ]
     },
     {
-      "text": "Il n'est jamais trop tard pour apprendre quelque chose de nouveau.",
+      "text": "O mundo está cheio de coisas óbvias que ninguém jamais observa. Às vezes, as respostas mais simples são as mais difíceis de enxergar.",
+      "difficulty": "medium",
       "translation": {
-        "pt": "Nunca é tarde demais para aprender algo novo.",
-        "en": "It's never too late to learn something new."
-      }
+        "en": "The world is full of obvious things which nobody ever observes. Sometimes, the simplest answers are the hardest to see.",
+        "fr": "Le monde est plein de choses évidentes que personne n'observe jamais. Parfois, les réponses les plus simples sont les plus difficiles à voir."
+      },
+      "mapping": [
+        { "original": "O mundo", "translated": "The world" },
+        { "original": "está cheio", "translated": "is full" },
+        { "original": "de coisas óbvias", "translated": "of obvious things" },
+        { "original": "que ninguém", "translated": "which nobody" },
+        { "original": "jamais observa", "translated": "ever observes" },
+        { "original": "Às vezes", "translated": "Sometimes" },
+        { "original": "as respostas mais simples", "translated": "the simplest answers" },
+        { "original": "são as mais difíceis", "translated": "are the hardest" },
+        { "original": "de enxergar", "translated": "to see" }
+      ]
     },
     {
-      "text": "L'éducation est le passeport pour l'avenir, car demain appartient à ceux qui s'y préparent aujourd'hui.",
+      "text": "A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original. O conhecimento transforma e expande nossa percepção.",
+      "difficulty": "medium",
       "translation": {
-        "pt": "A educação é o passaporte para o futuro, pois o amanhã pertence àqueles que se preparam hoje.",
-        "en": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
-      }
+        "en": "The mind that opens to a new idea never returns to its original size. Knowledge transforms and expands our perception.",
+        "fr": "L'esprit qui s'ouvre à une nouvelle idée ne reviendra jamais à sa taille d'origine. La connaissance transforme et élargit notre perception."
+      },
+      "mapping": [
+        { "original": "A mente", "translated": "The mind" },
+        { "original": "que se abre", "translated": "that opens" },
+        { "original": "a uma nova ideia", "translated": "to a new idea" },
+        { "original": "jamais voltará", "translated": "never returns" },
+        { "original": "ao seu tamanho original", "translated": "to its original size" },
+        { "original": "O conhecimento", "translated": "Knowledge" },
+        { "original": "transforma e expande", "translated": "transforms and expands" },
+        { "original": "nossa percepção", "translated": "our perception" }
+      ]
     },
     {
-      "text": "La vraie éducation signifie plus que la poursuite du savoir.",
+      "text": "Uma vida não examinada não vale a pena ser vivida. Questionamos para compreender, e compreendemos para evoluir como seres humanos.",
+      "difficulty": "medium",
       "translation": {
-        "pt": "A verdadeira educação significa mais do que a busca pelo conhecimento.",
-        "en": "True education means more than the pursuit of knowledge."
-      }
+        "en": "An unexamined life is not worth living. We question to understand, and we understand to evolve as human beings.",
+        "fr": "Une vie sans examen ne vaut pas la peine d'être vécue. Nous questionnons pour comprendre, et nous comprenons pour évoluer en tant qu'êtres humains."
+      },
+      "mapping": [
+        { "original": "Uma vida não examinada", "translated": "An unexamined life" },
+        { "original": "não vale a pena", "translated": "is not worth" },
+        { "original": "ser vivida", "translated": "living" },
+        { "original": "Questionamos", "translated": "We question" },
+        { "original": "para compreender", "translated": "to understand" },
+        { "original": "e compreendemos", "translated": "and we understand" },
+        { "original": "para evoluir", "translated": "to evolve" },
+        { "original": "como seres humanos", "translated": "as human beings" }
+      ]
     },
     {
-      "text": "Le succès n'est pas la clé du bonheur. Le bonheur est la clé du succès. Si vous aimez ce que vous faites, vous réussirez. La passion et la persévérance sont les ingrédients essentiels pour atteindre vos objectifs.",
+      "text": "O maior inimigo do conhecimento não é a ignorância, mas a ilusão do conhecimento. Precisamos estar abertos a desaprender.",
+      "difficulty": "medium",
       "translation": {
-        "pt": "O sucesso não é a chave para a felicidade. A felicidade é a chave para o sucesso. Se você ama o que faz, terá sucesso. A paixão e a perseverança são os ingredientes essenciais para alcançar seus objetivos.",
-        "en": "Success is not the key to happiness. Happiness is the key to success. If you love what you do, you will be successful. Passion and perseverance are the essential ingredients to achieve your goals."
-      }
+        "en": "The greatest enemy of knowledge is not ignorance, but the illusion of knowledge. We need to be open to unlearning.",
+        "fr": "Le plus grand ennemi de la connaissance n'est pas l'ignorance, mais l'illusion de la connaissance. Nous devons être ouverts à désapprendre."
+      },
+      "mapping": [
+        { "original": "O maior inimigo", "translated": "The greatest enemy" },
+        { "original": "do conhecimento", "translated": "of knowledge" },
+        { "original": "não é a ignorância", "translated": "is not ignorance" },
+        { "original": "mas a ilusão", "translated": "but the illusion" },
+        { "original": "do conhecimento", "translated": "of knowledge" },
+        { "original": "Precisamos estar", "translated": "We need to be" },
+        { "original": "abertos a desaprender", "translated": "open to unlearning" }
+      ]
     },
     {
-      "text": "La vie c'est comme une bicyclette, il faut avancer pour ne pas perdre l'équilibre.",
+      "text": "A criatividade é a inteligência se divertindo. Permitir-se explorar ideias sem julgamento é o primeiro passo para a inovação.",
+      "difficulty": "medium",
       "translation": {
-        "pt": "A vida é como andar de bicicleta, é preciso seguir em frente para manter o equilíbrio.",
-        "en": "Life is like riding a bicycle, you have to keep moving forward to maintain balance."
-      }
+        "en": "Creativity is intelligence having fun. Allowing yourself to explore ideas without judgment is the first step toward innovation.",
+        "fr": "La créativité est l'intelligence qui s'amuse. Se permettre d'explorer des idées sans jugement est la première étape vers l'innovation."
+      },
+      "mapping": [
+        { "original": "A criatividade", "translated": "Creativity" },
+        { "original": "é a inteligência", "translated": "is intelligence" },
+        { "original": "se divertindo", "translated": "having fun" },
+        { "original": "Permitir-se explorar", "translated": "Allowing yourself to explore" },
+        { "original": "ideias sem julgamento", "translated": "ideas without judgment" },
+        { "original": "é o primeiro passo", "translated": "is the first step" },
+        { "original": "para a inovação", "translated": "toward innovation" }
+      ]
+    },
+    {
+      "text": "O fracasso é apenas a oportunidade de começar de novo, desta vez de forma mais inteligente. Cada tentativa nos aproxima do sucesso.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "Failure is simply the opportunity to begin again, this time more intelligently. Each attempt brings us closer to success.",
+        "fr": "L'échec est simplement l'opportunité de recommencer, cette fois de façon plus intelligente. Chaque tentative nous rapproche du succès."
+      },
+      "mapping": [
+        { "original": "O fracasso", "translated": "Failure" },
+        { "original": "é apenas", "translated": "is simply" },
+        { "original": "a oportunidade", "translated": "the opportunity" },
+        { "original": "de começar de novo", "translated": "to begin again" },
+        { "original": "desta vez", "translated": "this time" },
+        { "original": "de forma mais inteligente", "translated": "more intelligently" },
+        { "original": "Cada tentativa", "translated": "Each attempt" },
+        { "original": "nos aproxima", "translated": "brings us closer" },
+        { "original": "do sucesso", "translated": "to success" }
+      ]
+    },
+    {
+      "text": "A verdadeira medida de um homem não é como ele se comporta em momentos de conforto, mas como age em tempos de desafio e controvérsia.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "The true measure of a man is not how he behaves in moments of comfort, but how he acts in times of challenge and controversy.",
+        "fr": "La vraie mesure d'un homme n'est pas comment il se comporte dans les moments de confort, mais comment il agit en temps de défi et de controverse."
+      },
+      "mapping": [
+        { "original": "A verdadeira medida", "translated": "The true measure" },
+        { "original": "de um homem", "translated": "of a man" },
+        { "original": "não é como", "translated": "is not how" },
+        { "original": "ele se comporta", "translated": "he behaves" },
+        { "original": "em momentos de conforto", "translated": "in moments of comfort" },
+        { "original": "mas como age", "translated": "but how he acts" },
+        { "original": "em tempos", "translated": "in times" },
+        { "original": "de desafio", "translated": "of challenge" },
+        { "original": "e controvérsia", "translated": "and controversy" }
+      ]
+    },
+    {
+      "text": "Líderes não criam seguidores, eles criam mais líderes. O verdadeiro impacto está na capacidade de inspirar outros a alcançar seu potencial.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "Leaders don't create followers, they create more leaders. The real impact lies in the ability to inspire others to reach their potential.",
+        "fr": "Les leaders ne créent pas de suiveurs, ils créent plus de leaders. Le véritable impact réside dans la capacité à inspirer les autres à atteindre leur potentiel."
+      },
+      "mapping": [
+        { "original": "Líderes", "translated": "Leaders" },
+        { "original": "não criam", "translated": "don't create" },
+        { "original": "seguidores", "translated": "followers" },
+        { "original": "eles criam", "translated": "they create" },
+        { "original": "mais líderes", "translated": "more leaders" },
+        { "original": "O verdadeiro impacto", "translated": "The real impact" },
+        { "original": "está na capacidade", "translated": "lies in the ability" },
+        { "original": "de inspirar", "translated": "to inspire" },
+        { "original": "outros", "translated": "others" },
+        { "original": "a alcançar", "translated": "to reach" },
+        { "original": "seu potencial", "translated": "their potential" }
+      ]
+    },
+    {
+      "text": "A empatia é ver com os olhos de outra pessoa, ouvir com os ouvidos de outra pessoa e sentir com o coração de outra pessoa.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "Empathy is seeing with the eyes of another, listening with the ears of another, and feeling with the heart of another.",
+        "fr": "L'empathie, c'est voir avec les yeux d'un autre, écouter avec les oreilles d'un autre et ressentir avec le cœur d'un autre."
+      },
+      "mapping": [
+        { "original": "A empatia", "translated": "Empathy" },
+        { "original": "é ver", "translated": "is seeing" },
+        { "original": "com os olhos", "translated": "with the eyes" },
+        { "original": "de outra pessoa", "translated": "of another" },
+        { "original": "ouvir", "translated": "listening" },
+        { "original": "com os ouvidos", "translated": "with the ears" },
+        { "original": "de outra pessoa", "translated": "of another" },
+        { "original": "e sentir", "translated": "and feeling" },
+        { "original": "com o coração", "translated": "with the heart" },
+        { "original": "de outra pessoa", "translated": "of another" }
+      ]
+    },
+    {
+      "text": "A vida não é medida pelo número de respirações que tomamos, mas pelos momentos que nos deixam sem fôlego. Viva intensamente.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "Life is not measured by the number of breaths we take, but by the moments that take our breath away. Live intensely.",
+        "fr": "La vie ne se mesure pas au nombre de respirations que nous prenons, mais aux moments qui nous coupent le souffle. Vivez intensément."
+      },
+      "mapping": [
+        { "original": "A vida", "translated": "Life" },
+        { "original": "não é medida", "translated": "is not measured" },
+        { "original": "pelo número", "translated": "by the number" },
+        { "original": "de respirações", "translated": "of breaths" },
+        { "original": "que tomamos", "translated": "we take" },
+        { "original": "mas pelos momentos", "translated": "but by the moments" },
+        { "original": "que nos deixam", "translated": "that take" },
+        { "original": "sem fôlego", "translated": "our breath away" },
+        { "original": "Viva intensamente", "translated": "Live intensely" }
+      ]
+    },
+    {
+      "text": "Nunca duvide que um pequeno grupo de cidadãos comprometidos possa mudar o mundo. Na verdade, é a única coisa que já mudou.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "Never doubt that a small group of committed citizens can change the world. Indeed, it's the only thing that ever has.",
+        "fr": "Ne doutez jamais qu'un petit groupe de citoyens engagés puisse changer le monde. En fait, c'est la seule chose qui l'ait jamais fait."
+      },
+      "mapping": [
+        { "original": "Nunca duvide", "translated": "Never doubt" },
+        { "original": "que um pequeno grupo", "translated": "that a small group" },
+        { "original": "de cidadãos comprometidos", "translated": "of committed citizens" },
+        { "original": "possa mudar", "translated": "can change" },
+        { "original": "o mundo", "translated": "the world" },
+        { "original": "Na verdade", "translated": "Indeed" },
+        { "original": "é a única coisa", "translated": "it's the only thing" },
+        { "original": "que já mudou", "translated": "that ever has" }
+      ]
+    },
+    {
+      "text": "O paradoxo do nosso tempo é que temos edifícios mais altos, mas temperamentos mais curtos; autoestradas mais largas, mas pontos de vista mais estreitos.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "The paradox of our time is that we have taller buildings, but shorter tempers; wider highways, but narrower viewpoints.",
+        "fr": "Le paradoxe de notre époque est que nous avons des bâtiments plus hauts, mais des tempéraments plus courts ; des autoroutes plus larges, mais des points de vue plus étroits."
+      },
+      "mapping": [
+        { "original": "O paradoxo", "translated": "The paradox" },
+        { "original": "do nosso tempo", "translated": "of our time" },
+        { "original": "é que temos", "translated": "is that we have" },
+        { "original": "edifícios mais altos", "translated": "taller buildings" },
+        { "original": "mas temperamentos", "translated": "but tempers" },
+        { "original": "mais curtos", "translated": "shorter" },
+        { "original": "autoestradas mais largas", "translated": "wider highways" },
+        { "original": "mas pontos de vista", "translated": "but viewpoints" },
+        { "original": "mais estreitos", "translated": "narrower" }
+      ]
+    },
+    {
+      "text": "As pessoas esquecerão o que você disse, esquecerão o que você fez, mas nunca esquecerão como você as fez sentir. Seja gentil.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "People will forget what you said, forget what you did, but they will never forget how you made them feel. Be kind.",
+        "fr": "Les gens oublieront ce que vous avez dit, oublieront ce que vous avez fait, mais n'oublieront jamais ce que vous leur avez fait ressentir. Soyez gentil."
+      },
+      "mapping": [
+        { "original": "As pessoas", "translated": "People" },
+        { "original": "esquecerão", "translated": "will forget" },
+        { "original": "o que você disse", "translated": "what you said" },
+        { "original": "esquecerão", "translated": "forget" },
+        { "original": "o que você fez", "translated": "what you did" },
+        { "original": "mas nunca esquecerão", "translated": "but they will never forget" },
+        { "original": "como você as fez sentir", "translated": "how you made them feel" },
+        { "original": "Seja gentil", "translated": "Be kind" }
+      ]
+    },
+    {
+      "text": "A educação é o que resta depois que esquecemos tudo o que aprendemos na escola. O verdadeiro aprendizado transforma quem somos.",
+      "difficulty": "medium",
+      "translation": {
+        "en": "Education is what remains after we have forgotten everything we learned in school. True learning transforms who we are.",
+        "fr": "L'éducation est ce qui reste après que nous ayons oublié tout ce que nous avons appris à l'école. Le véritable apprentissage transforme qui nous sommes."
+      },
+      "mapping": [
+        { "original": "A educação", "translated": "Education" },
+        { "original": "é o que resta", "translated": "is what remains" },
+        { "original": "depois que esquecemos", "translated": "after we have forgotten" },
+        { "original": "tudo o que aprendemos", "translated": "everything we learned" },
+        { "original": "na escola", "translated": "in school" },
+        { "original": "O verdadeiro aprendizado", "translated": "True learning" },
+        { "original": "transforma", "translated": "transforms" },
+        { "original": "quem somos", "translated": "who we are" }
+      ]
+    },
+    {
+      "text": "Quando estamos com medo, podemos fazer escolhas que afetam não só o nosso destino, mas também todos aqueles que cruzam nosso caminho. A coragem é a chave para a libertação.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "When we are afraid, we can make choices that affect not only our own fate but also everyone who crosses our path. Courage is the key to liberation.",
+        "fr": "Lorsque nous avons peur, nous pouvons faire des choix qui affectent non seulement notre propre destin, mais aussi tous ceux qui croisent notre chemin. Le courage est la clé de la libération."
+      },
+      "mapping": [
+        { "original": "Quando estamos", "translated": "When we are" },
+        { "original": "com medo", "translated": "afraid" },
+        { "original": "podemos fazer", "translated": "we can make" },
+        { "original": "escolhas", "translated": "choices" },
+        { "original": "que afetam", "translated": "that affect" },
+        { "original": "não só", "translated": "not only" },
+        { "original": "o nosso destino", "translated": "our own fate" },
+        { "original": "mas também", "translated": "but also" },
+        { "original": "todos aqueles", "translated": "everyone" },
+        { "original": "que cruzam", "translated": "who crosses" },
+        { "original": "nosso caminho", "translated": "our path" },
+        { "original": "A coragem", "translated": "Courage" },
+        { "original": "é a chave", "translated": "is the key" },
+        { "original": "para a libertação", "translated": "to liberation" }
+      ]
+    },
+    {
+      "text": "O processo de aprendizagem é uma jornada sem fim, repleta de descobertas surpreendentes e desafios transformadores que expandem nossa compreensão do universo e de nós mesmos. Cada novo conhecimento é um passo em direção à sabedoria.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "The learning process is an endless journey, filled with surprising discoveries and transformative challenges that expand our understanding of the universe and ourselves. Each new piece of knowledge is a step toward wisdom.",
+        "fr": "Le processus d'apprentissage est un voyage sans fin, rempli de découvertes surprenantes et de défis transformateurs qui élargissent notre compréhension de l'univers et de nous-mêmes. Chaque nouvelle connaissance est un pas vers la sagesse."
+      },
+      "mapping": [
+        { "original": "O processo de aprendizagem", "translated": "The learning process" },
+        { "original": "é uma jornada sem fim", "translated": "is an endless journey" },
+        { "original": "repleta de descobertas", "translated": "filled with discoveries" },
+        { "original": "surpreendentes", "translated": "surprising" },
+        { "original": "e desafios transformadores", "translated": "and transformative challenges" },
+        { "original": "que expandem", "translated": "that expand" },
+        { "original": "nossa compreensão", "translated": "our understanding" },
+        { "original": "do universo", "translated": "of the universe" },
+        { "original": "e de nós mesmos", "translated": "and ourselves" },
+        { "original": "Cada novo conhecimento", "translated": "Each new piece of knowledge" },
+        { "original": "é um passo", "translated": "is a step" },
+        { "original": "em direção à sabedoria", "translated": "toward wisdom" }
+      ]
+    },
+    {
+      "text": "Uma mente que se abre a uma nova ideia jamais voltará ao seu tamanho original, pois a expansão do conhecimento cria novos caminhos neurais e perspectivas que transformam permanentemente nossa capacidade de perceber e interpretar o mundo ao nosso redor.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "A mind that opens to a new idea will never return to its original size, as the expansion of knowledge creates new neural pathways and perspectives that permanently transform our ability to perceive and interpret the world around us.",
+        "fr": "Un esprit qui s'ouvre à une nouvelle idée ne reviendra jamais à sa taille d'origine, car l'expansion de la connaissance crée de nouvelles voies neurales et perspectives qui transforment de façon permanente notre capacité à percevoir et à interpréter le monde qui nous entoure."
+      },
+      "mapping": [
+        { "original": "Uma mente", "translated": "A mind" },
+        { "original": "que se abre", "translated": "that opens" },
+        { "original": "a uma nova ideia", "translated": "to a new idea" },
+        { "original": "jamais voltará", "translated": "will never return" },
+        { "original": "ao seu tamanho original", "translated": "to its original size" },
+        { "original": "pois a expansão", "translated": "as the expansion" },
+        { "original": "do conhecimento", "translated": "of knowledge" },
+        { "original": "cria novos caminhos", "translated": "creates new pathways" },
+        { "original": "neurais", "translated": "neural" },
+        { "original": "e perspectivas", "translated": "and perspectives" },
+        { "original": "que transformam permanentemente", "translated": "that permanently transform" },
+        { "original": "nossa capacidade", "translated": "our ability" },
+        { "original": "de perceber e interpretar", "translated": "to perceive and interpret" },
+        { "original": "o mundo ao nosso redor", "translated": "the world around us" }
+      ]
+    },
+    {
+      "text": "O verdadeiro propósito da educação não é simplesmente preencher mentes com informações, mas ensinar como pensar criticamente, questionar suposições, avaliar evidências e chegar a conclusões independentes que possam ser defendidas com lógica e razão em um diálogo aberto e construtivo.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "The true purpose of education is not simply to fill minds with information, but to teach how to think critically, question assumptions, evaluate evidence, and reach independent conclusions that can be defended with logic and reason in open and constructive dialogue.",
+        "fr": "Le véritable objectif de l'éducation n'est pas simplement de remplir les esprits d'informations, mais d'enseigner comment penser de manière critique, remettre en question les suppositions, évaluer les preuves et arriver à des conclusions indépendantes qui peuvent être défendues avec logique et raison dans un dialogue ouvert et constructif."
+      },
+      "mapping": [
+        { "original": "O verdadeiro propósito", "translated": "The true purpose" },
+        { "original": "da educação", "translated": "of education" },
+        { "original": "não é simplesmente", "translated": "is not simply" },
+        { "original": "preencher mentes", "translated": "to fill minds" },
+        { "original": "com informações", "translated": "with information" },
+        { "original": "mas ensinar", "translated": "but to teach" },
+        { "original": "como pensar criticamente", "translated": "how to think critically" },
+        { "original": "questionar suposições", "translated": "question assumptions" },
+        { "original": "avaliar evidências", "translated": "evaluate evidence" },
+        { "original": "e chegar a conclusões", "translated": "and reach conclusions" },
+        { "original": "independentes", "translated": "independent" },
+        { "original": "que possam ser defendidas", "translated": "that can be defended" },
+        { "original": "com lógica e razão", "translated": "with logic and reason" },
+        { "original": "em um diálogo", "translated": "in dialogue" },
+        { "original": "aberto e construtivo", "translated": "open and constructive" }
+      ]
+    },
+    {
+      "text": "Nossas maiores fraquezas e inseguranças frequentemente escondem nossos maiores talentos e forças, pois as áreas da vida onde experimentamos maior vulnerabilidade são também aquelas onde temos maior capacidade para crescimento, transformação e, eventualmente, para oferecer a contribuição mais significativa e autêntica ao mundo.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "Our greatest weaknesses and insecurities often hide our greatest talents and strengths, as the areas of life where we experience the most vulnerability are also those where we have the greatest capacity for growth, transformation, and eventually offering the most meaningful and authentic contribution to the world.",
+        "fr": "Nos plus grandes faiblesses et insécurités cachent souvent nos plus grands talents et forces, car les domaines de la vie où nous éprouvons le plus de vulnérabilité sont aussi ceux où nous avons la plus grande capacité de croissance, de transformation et, finalement, d'offrir la contribution la plus significative et authentique au monde."
+      },
+      "mapping": [
+        { "original": "Nossas maiores fraquezas", "translated": "Our greatest weaknesses" },
+        { "original": "e inseguranças", "translated": "and insecurities" },
+        { "original": "frequentemente escondem", "translated": "often hide" },
+        { "original": "nossos maiores talentos", "translated": "our greatest talents" },
+        { "original": "e forças", "translated": "and strengths" },
+        { "original": "pois as áreas da vida", "translated": "as the areas of life" },
+        { "original": "onde experimentamos", "translated": "where we experience" },
+        { "original": "maior vulnerabilidade", "translated": "the most vulnerability" },
+        { "original": "são também aquelas", "translated": "are also those" },
+        { "original": "onde temos", "translated": "where we have" },
+        { "original": "maior capacidade", "translated": "the greatest capacity" },
+        { "original": "para crescimento", "translated": "for growth" },
+        { "original": "transformação", "translated": "transformation" },
+        { "original": "e, eventualmente", "translated": "and eventually" },
+        { "original": "para oferecer", "translated": "offering" },
+        { "original": "a contribuição mais significativa", "translated": "the most meaningful contribution" },
+        { "original": "e autêntica", "translated": "and authentic" },
+        { "original": "ao mundo", "translated": "to the world" }
+      ]
+    },
+    {
+      "text": "O paradoxo da era da informação é que, enquanto temos acesso instantâneo a quantidades sem precedentes de conhecimento, nossa capacidade de discernir a verdade e desenvolver sabedoria autêntica está cada vez mais comprometida pelo ruído constante, pelas câmaras de eco e pela fragmentação da atenção que caracterizam nossa experiência digital cotidiana.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "The paradox of the information age is that, while we have instant access to unprecedented amounts of knowledge, our ability to discern truth and develop authentic wisdom is increasingly compromised by constant noise, echo chambers, and the fragmentation of attention that characterize our daily digital experience.",
+        "fr": "Le paradoxe de l'ère de l'information est que, alors que nous avons un accès instantané à des quantités sans précédent de connaissances, notre capacité à discerner la vérité et à développer une sagesse authentique est de plus en plus compromise par le bruit constant, les chambres d'écho et la fragmentation de l'attention qui caractérisent notre expérience numérique quotidienne."
+      },
+      "mapping": [
+        { "original": "O paradoxo", "translated": "The paradox" },
+        { "original": "da era da informação", "translated": "of the information age" },
+        { "original": "é que", "translated": "is that" },
+        { "original": "enquanto temos", "translated": "while we have" },
+        { "original": "acesso instantâneo", "translated": "instant access" },
+        { "original": "a quantidades sem precedentes", "translated": "to unprecedented amounts" },
+        { "original": "de conhecimento", "translated": "of knowledge" },
+        { "original": "nossa capacidade", "translated": "our ability" },
+        { "original": "de discernir a verdade", "translated": "to discern truth" },
+        { "original": "e desenvolver", "translated": "and develop" },
+        { "original": "sabedoria autêntica", "translated": "authentic wisdom" },
+        { "original": "está cada vez mais comprometida", "translated": "is increasingly compromised" },
+        { "original": "pelo ruído constante", "translated": "by constant noise" },
+        { "original": "pelas câmaras de eco", "translated": "echo chambers" },
+        { "original": "e pela fragmentação", "translated": "and the fragmentation" },
+        { "original": "da atenção", "translated": "of attention" },
+        { "original": "que caracterizam", "translated": "that characterize" },
+        { "original": "nossa experiência digital", "translated": "our digital experience" },
+        { "original": "cotidiana", "translated": "daily" }
+      ]
+    },
+    {
+      "text": "A verdadeira inovação frequentemente surge não de seguir caminhos estabelecidos ou aplicar soluções convencionais, mas de questionar fundamentalmente os pressupostos subjacentes a um problema e estar disposto a abandonar abordagens familiares em favor de explorações radicalmente novas que podem inicialmente parecer implausíveis ou mesmo absurdas aos olhos convencionais.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "True innovation often emerges not from following established paths or applying conventional solutions, but from fundamentally questioning the underlying assumptions of a problem and being willing to abandon familiar approaches in favor of radically new explorations that may initially seem implausible or even absurd to conventional eyes.",
+        "fr": "La véritable innovation émerge souvent non pas en suivant des chemins établis ou en appliquant des solutions conventionnelles, mais en remettant fondamentalement en question les hypothèses sous-jacentes d'un problème et en étant prêt à abandonner des approches familières en faveur d'explorations radicalement nouvelles qui peuvent initialement sembler peu plausibles ou même absurdes aux yeux conventionnels."
+      },
+      "mapping": [
+        { "original": "A verdadeira inovação", "translated": "True innovation" },
+        { "original": "frequentemente surge", "translated": "often emerges" },
+        { "original": "não de seguir", "translated": "not from following" },
+        { "original": "caminhos estabelecidos", "translated": "established paths" },
+        { "original": "ou aplicar", "translated": "or applying" },
+        { "original": "soluções convencionais", "translated": "conventional solutions" },
+        { "original": "mas de questionar", "translated": "but from questioning" },
+        { "original": "fundamentalmente", "translated": "fundamentally" },
+        { "original": "os pressupostos subjacentes", "translated": "the underlying assumptions" },
+        { "original": "a um problema", "translated": "of a problem" },
+        { "original": "e estar disposto", "translated": "and being willing" },
+        { "original": "a abandonar", "translated": "to abandon" },
+        { "original": "abordagens familiares", "translated": "familiar approaches" },
+        { "original": "em favor de explorações", "translated": "in favor of explorations" },
+        { "original": "radicalmente novas", "translated": "radically new" },
+        { "original": "que podem inicialmente", "translated": "that may initially" },
+        { "original": "parecer implausíveis", "translated": "seem implausible" },
+        { "original": "ou mesmo absurdas", "translated": "or even absurd" },
+        { "original": "aos olhos convencionais", "translated": "to conventional eyes" }
+      ]
+    },
+    {
+      "text": "O cultivo da resiliência psicológica não vem de evitar desafios ou dificuldades, mas de desenvolver mecanismos internos para processar, integrar e extrair significado das experiências adversas, permitindo-nos não apenas sobreviver às tempestades da vida, mas emergir delas com maior clareza, propósito e capacidade de conexão humana.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "The cultivation of psychological resilience does not come from avoiding challenges or difficulties, but from developing internal mechanisms to process, integrate, and extract meaning from adverse experiences, allowing us not just to survive life's storms, but to emerge from them with greater clarity, purpose, and capacity for human connection.",
+        "fr": "La culture de la résilience psychologique ne vient pas d'éviter les défis ou les difficultés, mais de développer des mécanismes internes pour traiter, intégrer et extraire du sens des expériences adverses, nous permettant non seulement de survivre aux tempêtes de la vie, mais d'en sortir avec plus de clarté, de but et de capacité de connexion humaine."
+      },
+      "mapping": [
+        { "original": "O cultivo", "translated": "The cultivation" },
+        { "original": "da resiliência psicológica", "translated": "of psychological resilience" },
+        { "original": "não vem de evitar", "translated": "does not come from avoiding" },
+        { "original": "desafios ou dificuldades", "translated": "challenges or difficulties" },
+        { "original": "mas de desenvolver", "translated": "but from developing" },
+        { "original": "mecanismos internos", "translated": "internal mechanisms" },
+        { "original": "para processar", "translated": "to process" },
+        { "original": "integrar", "translated": "integrate" },
+        { "original": "e extrair significado", "translated": "and extract meaning" },
+        { "original": "das experiências adversas", "translated": "from adverse experiences" },
+        { "original": "permitindo-nos", "translated": "allowing us" },
+        { "original": "não apenas sobreviver", "translated": "not just to survive" },
+        { "original": "às tempestades da vida", "translated": "life's storms" },
+        { "original": "mas emergir delas", "translated": "but to emerge from them" },
+        { "original": "com maior clareza", "translated": "with greater clarity" },
+        { "original": "propósito", "translated": "purpose" },
+        { "original": "e capacidade de", "translated": "and capacity for" },
+        { "original": "conexão humana", "translated": "human connection" }
+      ]
+    },
+    {
+      "text": "A prática da atenção plena nos ensina que o presente é o único momento que realmente existe e que nossa tendência de habitar mentalmente no passado através de lamentações ou no futuro através de ansiedades não apenas nos rouba a experiência direta da vida, mas também diminui nossa capacidade de responder criativamente às circunstâncias atuais com clareza e compaixão.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "The practice of mindfulness teaches us that the present is the only moment that truly exists and that our tendency to mentally dwell in the past through regrets or in the future through anxieties not only robs us of the direct experience of life but also diminishes our ability to respond creatively to current circumstances with clarity and compassion.",
+        "fr": "La pratique de la pleine conscience nous enseigne que le présent est le seul moment qui existe vraiment et que notre tendance à habiter mentalement dans le passé à travers des regrets ou dans le futur à travers des anxiétés non seulement nous vole l'expérience directe de la vie, mais diminue également notre capacité à répondre créativement aux circonstances actuelles avec clarté et compassion."
+      },
+      "mapping": [
+        { "original": "A prática", "translated": "The practice" },
+        { "original": "da atenção plena", "translated": "of mindfulness" },
+        { "original": "nos ensina que", "translated": "teaches us that" },
+        { "original": "o presente", "translated": "the present" },
+        { "original": "é o único momento", "translated": "is the only moment" },
+        { "original": "que realmente existe", "translated": "that truly exists" },
+        { "original": "e que nossa tendência", "translated": "and that our tendency" },
+        { "original": "de habitar mentalmente", "translated": "to mentally dwell" },
+        { "original": "no passado", "translated": "in the past" },
+        { "original": "através de lamentações", "translated": "through regrets" },
+        { "original": "ou no futuro", "translated": "or in the future" },
+        { "original": "através de ansiedades", "translated": "through anxieties" },
+        { "original": "não apenas nos rouba", "translated": "not only robs us of" },
+        { "original": "a experiência direta da vida", "translated": "the direct experience of life" },
+        { "original": "mas também diminui", "translated": "but also diminishes" },
+        { "original": "nossa capacidade", "translated": "our ability" },
+        { "original": "de responder criativamente", "translated": "to respond creatively" },
+        { "original": "às circunstâncias atuais", "translated": "to current circumstances" },
+        { "original": "com clareza e compaixão", "translated": "with clarity and compassion" }
+      ]
+    },
+    {
+      "text": "Um líder verdadeiramente visionário reconhece que os maiores desafios da humanidade não podem ser resolvidos pelo mesmo nível de pensamento que os criou, mas requerem uma expansão da consciência coletiva e uma disposição para transcender perspectivas limitadas em favor de uma compreensão mais integrada e interconectada de nosso mundo compartilhado.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "A truly visionary leader recognizes that humanity's greatest challenges cannot be solved by the same level of thinking that created them, but require an expansion of collective consciousness and a willingness to transcend limited perspectives in favor of a more integrated and interconnected understanding of our shared world.",
+        "fr": "Un leader véritablement visionnaire reconnaît que les plus grands défis de l'humanité ne peuvent pas être résolus par le même niveau de pensée qui les a créés, mais nécessitent une expansion de la conscience collective et une volonté de transcender les perspectives limitées en faveur d'une compréhension plus intégrée et interconnectée de notre monde partagé."
+      },
+      "mapping": [
+        { "original": "Um líder", "translated": "A leader" },
+        { "original": "verdadeiramente visionário", "translated": "truly visionary" },
+        { "original": "reconhece que", "translated": "recognizes that" },
+        { "original": "os maiores desafios", "translated": "the greatest challenges" },
+        { "original": "da humanidade", "translated": "of humanity" },
+        { "original": "não podem ser resolvidos", "translated": "cannot be solved" },
+        { "original": "pelo mesmo nível", "translated": "by the same level" },
+        { "original": "de pensamento", "translated": "of thinking" },
+        { "original": "que os criou", "translated": "that created them" },
+        { "original": "mas requerem", "translated": "but require" },
+        { "original": "uma expansão", "translated": "an expansion" },
+        { "original": "da consciência coletiva", "translated": "of collective consciousness" },
+        { "original": "e uma disposição", "translated": "and a willingness" },
+        { "original": "para transcender", "translated": "to transcend" },
+        { "original": "perspectivas limitadas", "translated": "limited perspectives" },
+        { "original": "em favor de", "translated": "in favor of" },
+        { "original": "uma compreensão", "translated": "an understanding" },
+        { "original": "mais integrada", "translated": "more integrated" },
+        { "original": "e interconectada", "translated": "and interconnected" },
+        { "original": "de nosso mundo compartilhado", "translated": "of our shared world" }
+      ]
+    },
+    {
+      "text": "Nossa capacidade de enfrentar com sucesso os desafios globais do século XXI, desde as mudanças climáticas até as desigualdades sociais profundas, depende não apenas de avanços tecnológicos ou políticas inovadoras, mas fundamentalmente de uma transformação na consciência humana que nos permita reconhecer nossa interdependência radical e agir a partir de um senso genuíno de responsabilidade compartilhada pelo bem-estar de toda a teia da vida.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "Our capacity to successfully address the global challenges of the 21st century, from climate change to deep social inequalities, depends not only on technological advances or innovative policies, but fundamentally on a transformation in human consciousness that allows us to recognize our radical interdependence and act from a genuine sense of shared responsibility for the well-being of the entire web of life.",
+        "fr": "Notre capacité à relever avec succès les défis mondiaux du XXIe siècle, des changements climatiques aux profondes inégalités sociales, dépend non seulement des avancées technologiques ou des politiques innovantes, mais fondamentalement d'une transformation de la conscience humaine qui nous permet de reconnaître notre interdépendance radicale et d'agir à partir d'un sentiment authentique de responsabilité partagée pour le bien-être de toute la toile de la vie."
+      },
+      "mapping": [
+        { "original": "Nossa capacidade", "translated": "Our capacity" },
+        { "original": "de enfrentar com sucesso", "translated": "to successfully address" },
+        { "original": "os desafios globais", "translated": "the global challenges" },
+        { "original": "do século XXI", "translated": "of the 21st century" },
+        { "original": "desde as mudanças climáticas", "translated": "from climate change" },
+        { "original": "até as desigualdades sociais", "translated": "to social inequalities" },
+        { "original": "profundas", "translated": "deep" },
+        { "original": "depende não apenas", "translated": "depends not only" },
+        { "original": "de avanços tecnológicos", "translated": "on technological advances" },
+        { "original": "ou políticas inovadoras", "translated": "or innovative policies" },
+        { "original": "mas fundamentalmente", "translated": "but fundamentally" },
+        { "original": "de uma transformação", "translated": "on a transformation" },
+        { "original": "na consciência humana", "translated": "in human consciousness" },
+        { "original": "que nos permita", "translated": "that allows us" },
+        { "original": "reconhecer", "translated": "to recognize" },
+        { "original": "nossa interdependência radical", "translated": "our radical interdependence" },
+        { "original": "e agir a partir", "translated": "and act from" },
+        { "original": "de um senso genuíno", "translated": "a genuine sense" },
+        { "original": "de responsabilidade compartilhada", "translated": "of shared responsibility" },
+        { "original": "pelo bem-estar", "translated": "for the well-being" },
+        { "original": "de toda a teia da vida", "translated": "of the entire web of life" }
+      ]
+    },
+    {
+      "text": "A verdadeira medida do progresso humano não pode ser reduzida a indicadores puramente econômicos ou tecnológicos, mas deve incorporar nossa capacidade coletiva de criar sociedades onde cada pessoa tenha a oportunidade de desenvolver seu potencial único, onde a diversidade seja celebrada como fonte de criatividade e resiliência, e onde nosso avanço seja avaliado não apenas pelo que produzimos e consumimos, mas pela qualidade das relações que nutrimos.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "The true measure of human progress cannot be reduced to purely economic or technological indicators, but must incorporate our collective capacity to create societies where each person has the opportunity to develop their unique potential, where diversity is celebrated as a source of creativity and resilience, and where our advancement is evaluated not just by what we produce and consume, but by the quality of the relationships we nurture.",
+        "fr": "La véritable mesure du progrès humain ne peut être réduite à des indicateurs purement économiques ou technologiques, mais doit intégrer notre capacité collective à créer des sociétés où chaque personne a la possibilité de développer son potentiel unique, où la diversité est célébrée comme source de créativité et de résilience, et où notre avancement est évalué non seulement par ce que nous produisons et consommons, mais par la qualité des relations que nous entretenons."
+      },
+      "mapping": [
+        { "original": "A verdadeira medida", "translated": "The true measure" },
+        { "original": "do progresso humano", "translated": "of human progress" },
+        { "original": "não pode ser reduzida", "translated": "cannot be reduced" },
+        { "original": "a indicadores", "translated": "to indicators" },
+        { "original": "puramente econômicos", "translated": "purely economic" },
+        { "original": "ou tecnológicos", "translated": "or technological" },
+        { "original": "mas deve incorporar", "translated": "but must incorporate" },
+        { "original": "nossa capacidade coletiva", "translated": "our collective capacity" },
+        { "original": "de criar sociedades", "translated": "to create societies" },
+        { "original": "onde cada pessoa", "translated": "where each person" },
+        { "original": "tenha a oportunidade", "translated": "has the opportunity" },
+        { "original": "de desenvolver", "translated": "to develop" },
+        { "original": "seu potencial único", "translated": "their unique potential" },
+        { "original": "onde a diversidade", "translated": "where diversity" },
+        { "original": "seja celebrada", "translated": "is celebrated" },
+        { "original": "como fonte de criatividade", "translated": "as a source of creativity" },
+        { "original": "e resiliência", "translated": "and resilience" },
+        { "original": "e onde nosso avanço", "translated": "and where our advancement" },
+        { "original": "seja avaliado", "translated": "is evaluated" },
+        { "original": "não apenas pelo que", "translated": "not just by what" },
+        { "original": "produzimos e consumimos", "translated": "we produce and consume" },
+        { "original": "mas pela qualidade", "translated": "but by the quality" },
+        { "original": "das relações", "translated": "of the relationships" },
+        { "original": "que nutrimos", "translated": "we nurture" }
+      ]
+    },
+    {
+      "text": "Ao longo da história humana, os momentos de maior transformação social não ocorreram simplesmente pela imposição de poder ou pela gradual acumulação de mudanças incrementais, mas através de profundas mudanças nas narrativas coletivas que moldam nossa compreensão de quem somos, o que valorizamos e qual futuro aspiramos criar juntos, revelando o papel fundamental da imaginação cultural na evolução das civilizações.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "Throughout human history, the moments of greatest social transformation have not occurred simply through the imposition of power or the gradual accumulation of incremental changes, but through profound shifts in collective narratives that shape our understanding of who we are, what we value, and what future we aspire to create together, revealing the fundamental role of cultural imagination in the evolution of civilizations.",
+        "fr": "Tout au long de l'histoire humaine, les moments de plus grande transformation sociale ne se sont pas produits simplement par l'imposition du pouvoir ou par l'accumulation graduelle de changements incrémentaux, mais à travers de profonds changements dans les récits collectifs qui façonnent notre compréhension de qui nous sommes, ce que nous valorisons et quel avenir nous aspirons à créer ensemble, révélant le rôle fondamental de l'imagination culturelle dans l'évolution des civilisations."
+      },
+      "mapping": [
+        { "original": "Ao longo da história humana", "translated": "Throughout human history" },
+        { "original": "os momentos", "translated": "the moments" },
+        { "original": "de maior transformação social", "translated": "of greatest social transformation" },
+        { "original": "não ocorreram simplesmente", "translated": "have not occurred simply" },
+        { "original": "pela imposição de poder", "translated": "through the imposition of power" },
+        { "original": "ou pela gradual acumulação", "translated": "or the gradual accumulation" },
+        { "original": "de mudanças incrementais", "translated": "of incremental changes" },
+        { "original": "mas através de", "translated": "but through" },
+        { "original": "profundas mudanças", "translated": "profound shifts" },
+        { "original": "nas narrativas coletivas", "translated": "in collective narratives" },
+        { "original": "que moldam", "translated": "that shape" },
+        { "original": "nossa compreensão", "translated": "our understanding" },
+        { "original": "de quem somos", "translated": "of who we are" },
+        { "original": "o que valorizamos", "translated": "what we value" },
+        { "original": "e qual futuro", "translated": "and what future" },
+        { "original": "aspiramos criar juntos", "translated": "we aspire to create together" },
+        { "original": "revelando", "translated": "revealing" },
+        { "original": "o papel fundamental", "translated": "the fundamental role" },
+        { "original": "da imaginação cultural", "translated": "of cultural imagination" },
+        { "original": "na evolução das civilizações", "translated": "in the evolution of civilizations" }
+      ]
+    },
+    {
+      "text": "No coração de toda grande tradição espiritual e filosófica repousa o reconhecimento de que a vida humana não é apenas uma busca por conforto, segurança ou acúmulo de posses materiais, mas uma jornada de autodescoberta e autotranscendência, onde nossos sofrimentos e desafios inevitáveis podem ser transformados em oportunidades para despertar uma compreensão mais profunda de nossa natureza essencial e nosso pertencimento à teia mais ampla da existência.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "At the heart of every great spiritual and philosophical tradition lies the recognition that human life is not merely a quest for comfort, security or accumulation of material possessions, but a journey of self-discovery and self-transcendence, where our inevitable sufferings and challenges can be transformed into opportunities to awaken a deeper understanding of our essential nature and our belonging to the broader web of existence.",
+        "fr": "Au cœur de toute grande tradition spirituelle et philosophique repose la reconnaissance que la vie humaine n'est pas seulement une quête de confort, de sécurité ou d'accumulation de biens matériels, mais un voyage d'auto-découverte et d'auto-transcendance, où nos souffrances et défis inévitables peuvent être transformés en opportunités pour éveiller une compréhension plus profonde de notre nature essentielle et de notre appartenance à la toile plus large de l'existence."
+      },
+      "mapping": [
+        { "original": "No coração", "translated": "At the heart" },
+        { "original": "de toda grande", "translated": "of every great" },
+        { "original": "tradição espiritual", "translated": "spiritual tradition" },
+        { "original": "e filosófica", "translated": "and philosophical" },
+        { "original": "repousa o reconhecimento", "translated": "lies the recognition" },
+        { "original": "de que a vida humana", "translated": "that human life" },
+        { "original": "não é apenas", "translated": "is not merely" },
+        { "original": "uma busca por conforto", "translated": "a quest for comfort" },
+        { "original": "segurança", "translated": "security" },
+        { "original": "ou acúmulo", "translated": "or accumulation" },
+        { "original": "de posses materiais", "translated": "of material possessions" },
+        { "original": "mas uma jornada", "translated": "but a journey" },
+        { "original": "de autodescoberta", "translated": "of self-discovery" },
+        { "original": "e autotranscendência", "translated": "and self-transcendence" },
+        { "original": "onde nossos sofrimentos", "translated": "where our sufferings" },
+        { "original": "e desafios inevitáveis", "translated": "and inevitable challenges" },
+        { "original": "podem ser transformados", "translated": "can be transformed" },
+        { "original": "em oportunidades", "translated": "into opportunities" },
+        { "original": "para despertar", "translated": "to awaken" },
+        { "original": "uma compreensão mais profunda", "translated": "a deeper understanding" },
+        { "original": "de nossa natureza essencial", "translated": "of our essential nature" },
+        { "original": "e nosso pertencimento", "translated": "and our belonging" },
+        { "original": "à teia mais ampla", "translated": "to the broader web" },
+        { "original": "da existência", "translated": "of existence" }
+      ]
+    },
+    {
+      "text": "Em um mundo cada vez mais caracterizado pela fragmentação social, polarização política e crises ambientais interconectadas, precisamos urgentemente cultivar uma inteligência coletiva que transcenda as limitações do pensamento puramente analítico e individualista, integrando dimensões cognitivas, emocionais, somáticas e intuitivas de nossa humanidade para responder com sabedoria à complexidade sem precedentes dos desafios que enfrentamos como espécie em evolução.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "In a world increasingly characterized by social fragmentation, political polarization, and interconnected environmental crises, we urgently need to cultivate a collective intelligence that transcends the limitations of purely analytical and individualistic thinking, integrating cognitive, emotional, somatic, and intuitive dimensions of our humanity to respond with wisdom to the unprecedented complexity of challenges we face as an evolving species.",
+        "fr": "Dans un monde de plus en plus caractérisé par la fragmentation sociale, la polarisation politique et les crises environnementales interconnectées, nous devons cultiver d'urgence une intelligence collective qui transcende les limites de la pensée purement analytique et individualiste, en intégrant les dimensions cognitives, émotionnelles, somatiques et intuitives de notre humanité pour répondre avec sagesse à la complexité sans précédent des défis auxquels nous sommes confrontés en tant qu'espèce en évolution."
+      },
+      "mapping": [
+        { "original": "Em um mundo", "translated": "In a world" },
+        { "original": "cada vez mais caracterizado", "translated": "increasingly characterized" },
+        { "original": "pela fragmentação social", "translated": "by social fragmentation" },
+        { "original": "polarização política", "translated": "political polarization" },
+        { "original": "e crises ambientais", "translated": "and environmental crises" },
+        { "original": "interconectadas", "translated": "interconnected" },
+        { "original": "precisamos urgentemente", "translated": "we urgently need" },
+        { "original": "cultivar", "translated": "to cultivate" },
+        { "original": "uma inteligência coletiva", "translated": "a collective intelligence" },
+        { "original": "que transcenda", "translated": "that transcends" },
+        { "original": "as limitações", "translated": "the limitations" },
+        { "original": "do pensamento", "translated": "of thinking" },
+        { "original": "puramente analítico", "translated": "purely analytical" },
+        { "original": "e individualista", "translated": "and individualistic" },
+        { "original": "integrando dimensões", "translated": "integrating dimensions" },
+        { "original": "cognitivas, emocionais", "translated": "cognitive, emotional" },
+        { "original": "somáticas e intuitivas", "translated": "somatic, and intuitive" },
+        { "original": "de nossa humanidade", "translated": "of our humanity" },
+        { "original": "para responder", "translated": "to respond" },
+        { "original": "com sabedoria", "translated": "with wisdom" },
+        { "original": "à complexidade sem precedentes", "translated": "to the unprecedented complexity" },
+        { "original": "dos desafios", "translated": "of challenges" },
+        { "original": "que enfrentamos", "translated": "we face" },
+        { "original": "como espécie em evolução", "translated": "as an evolving species" }
+      ]
+    },
+    {
+      "text": "A mente humana é um jardim que exige cultivo constante. As sementes de pensamentos positivos, quando nutridas através da atenção consciente, crescem em uma colheita abundante de bem-estar e realização, enquanto os pensamentos negativos, quando permitidos dominar nosso espaço mental sem questionamento, podem rapidamente sufocar o florescimento de nosso potencial criativo e minar nossa capacidade de experimentar alegria genuína nas simples belezas da existência cotidiana.",
+      "difficulty": "hard",
+      "translation": {
+        "en": "The human mind is a garden that requires constant cultivation. The seeds of positive thoughts, when nurtured through conscious attention, grow into an abundant harvest of well-being and fulfillment, while negative thoughts, when allowed to dominate our mental space without questioning, can quickly stifle the flowering of our creative potential and undermine our ability to experience genuine joy in the simple beauties of everyday existence.",
+        "fr": "L'esprit humain est un jardin qui exige une culture constante. Les graines de pensées positives, lorsqu'elles sont nourries par une attention consciente, se transforment en une récolte abondante de bien-être et d'accomplissement, tandis que les pensées négatives, lorsqu'elles sont autorisées à dominer notre espace mental sans remise en question, peuvent rapidement étouffer l'épanouissement de notre potentiel créatif et saper notre capacité à expérimenter une joie authentique dans les beautés simples de l'existence quotidienne."
+      },
+      "mapping": [
+        { "original": "A mente humana", "translated": "The human mind" },
+        { "original": "é um jardim", "translated": "is a garden" },
+        { "original": "que exige", "translated": "that requires" },
+        { "original": "cultivo constante", "translated": "constant cultivation" },
+        { "original": "As sementes", "translated": "The seeds" },
+        { "original": "de pensamentos positivos", "translated": "of positive thoughts" },
+        { "original": "quando nutridas", "translated": "when nurtured" },
+        { "original": "através da atenção consciente", "translated": "through conscious attention" },
+        { "original": "crescem", "translated": "grow" },
+        { "original": "em uma colheita abundante", "translated": "into an abundant harvest" },
+        { "original": "de bem-estar", "translated": "of well-being" },
+        { "original": "e realização", "translated": "and fulfillment" },
+        { "original": "enquanto os pensamentos negativos", "translated": "while negative thoughts" },
+        { "original": "quando permitidos", "translated": "when allowed" },
+        { "original": "dominar", "translated": "to dominate" },
+        { "original": "nosso espaço mental", "translated": "our mental space" },
+        { "original": "sem questionamento", "translated": "without questioning" },
+        { "original": "podem rapidamente", "translated": "can quickly" },
+        { "original": "sufocar o florescimento", "translated": "stifle the flowering" },
+        { "original": "de nosso potencial criativo", "translated": "of our creative potential" },
+        { "original": "e minar", "translated": "and undermine" },
+        { "original": "nossa capacidade", "translated": "our ability" },
+        { "original": "de experimentar", "translated": "to experience" },
+        { "original": "alegria genuína", "translated": "genuine joy" },
+        { "original": "nas simples belezas", "translated": "in the simple beauties" },
+        { "original": "da existência cotidiana", "translated": "of everyday existence" }
+      ]
+    },
+    {
+      "text": "Na era digital atual, enfrentamos uma profunda transformação na natureza da atenção humana, à medida que uma economia baseada na captura e monetização de nossa consciência fragmenta cada vez mais nossas capacidades de concentração sustentada, reflexão profunda e contemplação silenciosa, precisamente as faculdades mentais que, ao longo da história, permitiram nossa espécie criar obras de beleza e significado duradouros, solucionar problemas complexos e transmitir sabedoria através das gerações.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "In the current digital age, we face a profound transformation in the nature of human attention, as an economy based on the capture and monetization of our consciousness increasingly fragments our capacities for sustained concentration, deep reflection, and silent contemplation—precisely the mental faculties that, throughout history, have enabled our species to create works of lasting beauty and meaning, solve complex problems, and transmit wisdom across generations.",
+        "fr": "Dans l'ère numérique actuelle, nous sommes confrontés à une transformation profonde de la nature de l'attention humaine, alors qu'une économie basée sur la captation et la monétisation de notre conscience fragmente de plus en plus nos capacités de concentration soutenue, de réflexion profonde et de contemplation silencieuse—précisément les facultés mentales qui, tout au long de l'histoire, ont permis à notre espèce de créer des œuvres d'une beauté et d'une signification durables, de résoudre des problèmes complexes et de transmettre la sagesse à travers les générations."
+      },
+      "mapping": [
+        { "original": "Na era digital atual", "translated": "In the current digital age" },
+        { "original": "enfrentamos", "translated": "we face" },
+        { "original": "uma profunda transformação", "translated": "a profound transformation" },
+        { "original": "na natureza", "translated": "in the nature" },
+        { "original": "da atenção humana", "translated": "of human attention" },
+        { "original": "à medida que", "translated": "as" },
+        { "original": "uma economia baseada", "translated": "an economy based" },
+        { "original": "na captura e monetização", "translated": "on the capture and monetization" },
+        { "original": "de nossa consciência", "translated": "of our consciousness" },
+        { "original": "fragmenta cada vez mais", "translated": "increasingly fragments" },
+        { "original": "nossas capacidades", "translated": "our capacities" },
+        { "original": "de concentração sustentada", "translated": "for sustained concentration" },
+        { "original": "reflexão profunda", "translated": "deep reflection" },
+        { "original": "e contemplação silenciosa", "translated": "and silent contemplation" },
+        { "original": "precisamente as faculdades mentais", "translated": "precisely the mental faculties" },
+        { "original": "que, ao longo da história", "translated": "that, throughout history" },
+        { "original": "permitiram nossa espécie", "translated": "have enabled our species" },
+        { "original": "criar obras", "translated": "to create works" },
+        { "original": "de beleza e significado duradouros", "translated": "of lasting beauty and meaning" },
+        { "original": "solucionar problemas complexos", "translated": "solve complex problems" },
+        { "original": "e transmitir sabedoria", "translated": "and transmit wisdom" },
+        { "original": "através das gerações", "translated": "across generations" }
+      ]
+    },
+    {
+      "text": "Diferentemente de sistemas puramente mecânicos ou computacionais, os organismos vivos e os ecossistemas naturais exibem uma notável capacidade de auto-organização, adaptação contínua e evolução emergente, surgindo da complexa teia de relações interdependentes entre seus componentes e o ambiente mais amplo, desafiando nossos modelos mentais lineares e reducionistas e nos convidando a desenvolver modos mais integrativos e sistêmicos de compreensão que possam honrar adequadamente a dinâmica multidimensional e autopoiética da vida em suas infinitas manifestações.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "Unlike purely mechanical or computational systems, living organisms and natural ecosystems exhibit a remarkable capacity for self-organization, continuous adaptation, and emergent evolution, arising from the complex web of interdependent relationships between their components and the broader environment, challenging our linear and reductionist mental models and inviting us to develop more integrative and systemic modes of understanding that can adequately honor the multidimensional and autopoietic dynamics of life in its infinite manifestations.",
+        "fr": "Contrairement aux systèmes purement mécaniques ou informatiques, les organismes vivants et les écosystèmes naturels présentent une remarquable capacité d'auto-organisation, d'adaptation continue et d'évolution émergente, surgissant du tissu complexe de relations interdépendantes entre leurs composants et l'environnement plus large, défiant nos modèles mentaux linéaires et réductionnistes et nous invitant à développer des modes de compréhension plus intégratifs et systémiques qui puissent honorer adéquatement la dynamique multidimensionnelle et autopoïétique de la vie dans ses manifestations infinies."
+      },
+      "mapping": [
+        { "original": "Diferentemente de", "translated": "Unlike" },
+        { "original": "sistemas puramente mecânicos", "translated": "purely mechanical systems" },
+        { "original": "ou computacionais", "translated": "or computational" },
+        { "original": "os organismos vivos", "translated": "living organisms" },
+        { "original": "e os ecossistemas naturais", "translated": "and natural ecosystems" },
+        { "original": "exibem uma notável capacidade", "translated": "exhibit a remarkable capacity" },
+        { "original": "de auto-organização", "translated": "for self-organization" },
+        { "original": "adaptação contínua", "translated": "continuous adaptation" },
+        { "original": "e evolução emergente", "translated": "and emergent evolution" },
+        { "original": "surgindo da complexa teia", "translated": "arising from the complex web" },
+        { "original": "de relações interdependentes", "translated": "of interdependent relationships" },
+        { "original": "entre seus componentes", "translated": "between their components" },
+        { "original": "e o ambiente mais amplo", "translated": "and the broader environment" },
+        { "original": "desafiando", "translated": "challenging" },
+        { "original": "nossos modelos mentais", "translated": "our mental models" },
+        { "original": "lineares e reducionistas", "translated": "linear and reductionist" },
+        { "original": "e nos convidando", "translated": "and inviting us" },
+        { "original": "a desenvolver", "translated": "to develop" },
+        { "original": "modos mais integrativos", "translated": "more integrative modes" },
+        { "original": "e sistêmicos", "translated": "and systemic" },
+        { "original": "de compreensão", "translated": "of understanding" },
+        { "original": "que possam honrar adequadamente", "translated": "that can adequately honor" },
+        { "original": "a dinâmica multidimensional", "translated": "the multidimensional dynamics" },
+        { "original": "e autopoiética", "translated": "and autopoietic" },
+        { "original": "da vida", "translated": "of life" },
+        { "original": "em suas infinitas manifestações", "translated": "in its infinite manifestations" }
+      ]
+    },
+    {
+      "text": "A sabedoria genuína difere fundamentalmente do mero acúmulo de informações ou conhecimento técnico, pois envolve uma integração profunda de compreensão intelectual com discernimento moral, intuição cultivada e uma capacidade refinada de navegar pela complexidade e incerteza inerentes à condição humana, reconhecendo os limites de nossa própria perspectiva, permanecendo aberto à contínua revisão de nossas suposições mais arraigadas, e cultivando a humildade epistêmica necessária para aprender não apenas com aqueles que compartilham nossas visões, mas especialmente com aqueles cujas experiências e perspectivas diferem radicalmente das nossas.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "Genuine wisdom differs fundamentally from the mere accumulation of information or technical knowledge, as it involves a deep integration of intellectual understanding with moral discernment, cultivated intuition, and a refined capacity to navigate the complexity and uncertainty inherent to the human condition, recognizing the limits of our own perspective, remaining open to continuous revision of our most entrenched assumptions, and cultivating the epistemic humility necessary to learn not only from those who share our views, but especially from those whose experiences and perspectives radically differ from our own.",
+        "fr": "La sagesse authentique diffère fondamentalement de la simple accumulation d'informations ou de connaissances techniques, car elle implique une intégration profonde de la compréhension intellectuelle avec le discernement moral, l'intuition cultivée et une capacité raffinée à naviguer dans la complexité et l'incertitude inhérentes à la condition humaine, reconnaissant les limites de notre propre perspective, restant ouvert à la révision continue de nos hypothèses les plus enracinées, et cultivant l'humilité épistémique nécessaire pour apprendre non seulement de ceux qui partagent nos vues, mais surtout de ceux dont les expériences et les perspectives diffèrent radicalement des nôtres."
+      },
+      "mapping": [
+        { "original": "A sabedoria genuína", "translated": "Genuine wisdom" },
+        { "original": "difere fundamentalmente", "translated": "differs fundamentally" },
+        { "original": "do mero acúmulo", "translated": "from the mere accumulation" },
+        { "original": "de informações", "translated": "of information" },
+        { "original": "ou conhecimento técnico", "translated": "or technical knowledge" },
+        { "original": "pois envolve", "translated": "as it involves" },
+        { "original": "uma integração profunda", "translated": "a deep integration" },
+        { "original": "de compreensão intelectual", "translated": "of intellectual understanding" },
+        { "original": "com discernimento moral", "translated": "with moral discernment" },
+        { "original": "intuição cultivada", "translated": "cultivated intuition" },
+        { "original": "e uma capacidade refinada", "translated": "and a refined capacity" },
+        { "original": "de navegar pela complexidade", "translated": "to navigate the complexity" },
+        { "original": "e incerteza", "translated": "and uncertainty" },
+        { "original": "inerentes à condição humana", "translated": "inherent to the human condition" },
+        { "original": "reconhecendo os limites", "translated": "recognizing the limits" },
+        { "original": "de nossa própria perspectiva", "translated": "of our own perspective" },
+        { "original": "permanecendo aberto", "translated": "remaining open" },
+        { "original": "à contínua revisão", "translated": "to continuous revision" },
+        { "original": "de nossas suposições", "translated": "of our assumptions" },
+        { "original": "mais arraigadas", "translated": "most entrenched" },
+        { "original": "e cultivando", "translated": "and cultivating" },
+        { "original": "a humildade epistêmica", "translated": "the epistemic humility" },
+        { "original": "necessária para aprender", "translated": "necessary to learn" },
+        { "original": "não apenas", "translated": "not only" },
+        { "original": "com aqueles que compartilham", "translated": "from those who share" },
+        { "original": "nossas visões", "translated": "our views" },
+        { "original": "mas especialmente", "translated": "but especially" },
+        { "original": "com aqueles cujas experiências", "translated": "from those whose experiences" },
+        { "original": "e perspectivas", "translated": "and perspectives" },
+        { "original": "diferem radicalmente", "translated": "radically differ" },
+        { "original": "das nossas", "translated": "from our own" }
+      ]
+    },
+    {
+      "text": "A evolução da consciência humana exige que transcendamos as visões fragmentadas e divisivas que caracterizam grande parte de nossa história coletiva, desenvolvendo capacidades cada vez mais refinadas para perceber e honrar as interdependências fundamentais que conectam todos os sistemas vivos, para integrar polaridades aparentemente opostas em sínteses mais abrangentes, para abraçar a complexidade inerente aos desafios globais contemporâneos, e para cultivar uma compaixão genuinamente universal que se estenda para além das fronteiras arbitrárias de identidade étnica, nacionalidade, afiliação ideológica ou espécie biológica.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "The evolution of human consciousness requires that we transcend the fragmented and divisive views that characterize much of our collective history, developing increasingly refined capacities to perceive and honor the fundamental interdependencies that connect all living systems, to integrate seemingly opposed polarities into more comprehensive syntheses, to embrace the complexity inherent in contemporary global challenges, and to cultivate a genuinely universal compassion that extends beyond the arbitrary boundaries of ethnic identity, nationality, ideological affiliation, or biological species.",
+        "fr": "L'évolution de la conscience humaine exige que nous transcendions les visions fragmentées et divisives qui caractérisent une grande partie de notre histoire collective, développant des capacités de plus en plus raffinées pour percevoir et honorer les interdépendances fondamentales qui connectent tous les systèmes vivants, pour intégrer des polarités apparemment opposées dans des synthèses plus complètes, pour embrasser la complexité inhérente aux défis mondiaux contemporains, et pour cultiver une compassion véritablement universelle qui s'étende au-delà des frontières arbitraires d'identité ethnique, de nationalité, d'affiliation idéologique ou d'espèce biologique."
+      },
+      "mapping": [
+        { "original": "A evolução", "translated": "The evolution" },
+        { "original": "da consciência humana", "translated": "of human consciousness" },
+        { "original": "exige que transcendamos", "translated": "requires that we transcend" },
+        { "original": "as visões fragmentadas", "translated": "the fragmented views" },
+        { "original": "e divisivas", "translated": "and divisive" },
+        { "original": "que caracterizam", "translated": "that characterize" },
+        { "original": "grande parte", "translated": "much" },
+        { "original": "de nossa história coletiva", "translated": "of our collective history" },
+        { "original": "desenvolvendo capacidades", "translated": "developing capacities" },
+        { "original": "cada vez mais refinadas", "translated": "increasingly refined" },
+        { "original": "para perceber e honrar", "translated": "to perceive and honor" },
+        { "original": "as interdependências fundamentais", "translated": "the fundamental interdependencies" },
+        { "original": "que conectam", "translated": "that connect" },
+        { "original": "todos os sistemas vivos", "translated": "all living systems" },
+        { "original": "para integrar", "translated": "to integrate" },
+        { "original": "polaridades aparentemente opostas", "translated": "seemingly opposed polarities" },
+        { "original": "em sínteses mais abrangentes", "translated": "into more comprehensive syntheses" },
+        { "original": "para abraçar", "translated": "to embrace" },
+        { "original": "a complexidade inerente", "translated": "the complexity inherent" },
+        { "original": "aos desafios globais", "translated": "in global challenges" },
+        { "original": "contemporâneos", "translated": "contemporary" },
+        { "original": "e para cultivar", "translated": "and to cultivate" },
+        { "original": "uma compaixão", "translated": "a compassion" },
+        { "original": "genuinamente universal", "translated": "genuinely universal" },
+        { "original": "que se estenda", "translated": "that extends" },
+        { "original": "para além das fronteiras", "translated": "beyond the boundaries" },
+        { "original": "arbitrárias", "translated": "arbitrary" },
+        { "original": "de identidade étnica", "translated": "of ethnic identity" },
+        { "original": "nacionalidade", "translated": "nationality" },
+        { "original": "afiliação ideológica", "translated": "ideological affiliation" },
+        { "original": "ou espécie biológica", "translated": "or biological species" }
+      ]
+    },
+    {
+      "text": "Diante da riquíssima diversidade cultural da humanidade, não podemos deixar de reconhecer tanto as incríveis variações nas expressões humanas de arte, religião, ética e organização social quanto os temas universais recorrentes que emergem através dessas múltiplas tradições, sugerindo que, apesar de nossas diferenças superficiais, compartilhamos profundas estruturas cognitivas, necessidades emocionais e aspirações existenciais que transcendem as particularidades históricas e geográficas, oferecendo uma base potencial para diálogos interculturais e uma ética global que honre simultaneamente nossa unidade essencial e nossa diversidade exuberante.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "Confronted with humanity's extraordinarily rich cultural diversity, we cannot help but recognize both the incredible variations in human expressions of art, religion, ethics, and social organization, and the recurrent universal themes that emerge across these multiple traditions, suggesting that despite our superficial differences, we share deep cognitive structures, emotional needs, and existential aspirations that transcend historical and geographical particularities, offering a potential foundation for intercultural dialogues and a global ethics that simultaneously honors our essential unity and our exuberant diversity.",
+        "fr": "Face à la très riche diversité culturelle de l'humanité, nous ne pouvons que reconnaître à la fois les incroyables variations dans les expressions humaines d'art, de religion, d'éthique et d'organisation sociale, et les thèmes universels récurrents qui émergent à travers ces multiples traditions, suggérant que malgré nos différences superficielles, nous partageons des structures cognitives profondes, des besoins émotionnels et des aspirations existentielles qui transcendent les particularités historiques et géographiques, offrant une base potentielle pour des dialogues interculturels et une éthique mondiale qui honore simultanément notre unité essentielle et notre diversité exubérante."
+      },
+      "mapping": [
+        { "original": "Diante da", "translated": "Confronted with" },
+        { "original": "riquíssima diversidade cultural", "translated": "extraordinarily rich cultural diversity" },
+        { "original": "da humanidade", "translated": "humanity's" },
+        { "original": "não podemos deixar de reconhecer", "translated": "we cannot help but recognize" },
+        { "original": "tanto as incríveis variações", "translated": "both the incredible variations" },
+        { "original": "nas expressões humanas", "translated": "in human expressions" },
+        { "original": "de arte, religião", "translated": "of art, religion" },
+        { "original": "ética e organização social", "translated": "ethics, and social organization" },
+        { "original": "quanto os temas universais", "translated": "and the universal themes" },
+        { "original": "recorrentes", "translated": "recurrent" },
+        { "original": "que emergem", "translated": "that emerge" },
+        { "original": "através dessas", "translated": "across these" },
+        { "original": "múltiplas tradições", "translated": "multiple traditions" },
+        { "original": "sugerindo que", "translated": "suggesting that" },
+        { "original": "apesar de nossas", "translated": "despite our" },
+        { "original": "diferenças superficiais", "translated": "superficial differences" },
+        { "original": "compartilhamos", "translated": "we share" },
+        { "original": "profundas estruturas cognitivas", "translated": "deep cognitive structures" },
+        { "original": "necessidades emocionais", "translated": "emotional needs" },
+        { "original": "e aspirações existenciais", "translated": "and existential aspirations" },
+        { "original": "que transcendem", "translated": "that transcend" },
+        { "original": "as particularidades", "translated": "particularities" },
+        { "original": "históricas e geográficas", "translated": "historical and geographical" },
+        { "original": "oferecendo uma base potencial", "translated": "offering a potential foundation" },
+        { "original": "para diálogos interculturais", "translated": "for intercultural dialogues" },
+        { "original": "e uma ética global", "translated": "and a global ethics" },
+        { "original": "que honre simultaneamente", "translated": "that simultaneously honors" },
+        { "original": "nossa unidade essencial", "translated": "our essential unity" },
+        { "original": "e nossa diversidade exuberante", "translated": "and our exuberant diversity" }
+      ]
+    },
+    {
+      "text": "A jornada rumo à maturidade psicológica e espiritual envolve um processo gradual de reconhecimento, integração e transcendência das várias polaridades que inicialmente experimentamos como forças opostas em nossa psique – razão e emoção, masculino e feminino, luz e sombra, estrutura e fluidez, individualidade e pertencimento – não através da negação de qualquer aspecto de nossa multifacetada natureza, mas através do desenvolvimento de uma capacidade cada vez mais refinada de habitar o espaço criativo de tensão entre os opostos, permitindo que uma sabedoria mais abrangente e integrativa emerja da dança dinâmica entre perspectivas aparentemente contraditórias.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "The journey toward psychological and spiritual maturity involves a gradual process of recognizing, integrating, and transcending the various polarities that we initially experience as opposing forces in our psyche—reason and emotion, masculine and feminine, light and shadow, structure and fluidity, individuality and belonging—not through denial of any aspect of our multifaceted nature, but through developing an increasingly refined capacity to inhabit the creative space of tension between opposites, allowing a more comprehensive and integrative wisdom to emerge from the dynamic dance between seemingly contradictory perspectives.",
+        "fr": "Le voyage vers la maturité psychologique et spirituelle implique un processus graduel de reconnaissance, d'intégration et de transcendance des différentes polarités que nous expérimentons initialement comme des forces opposées dans notre psyché—raison et émotion, masculin et féminin, lumière et ombre, structure et fluidité, individualité et appartenance—non pas par le déni d'un aspect quelconque de notre nature aux multiples facettes, mais par le développement d'une capacité de plus en plus raffinée à habiter l'espace créatif de tension entre les opposés, permettant à une sagesse plus complète et intégrative d'émerger de la danse dynamique entre des perspectives apparemment contradictoires."
+      },
+      "mapping": [
+        { "original": "A jornada", "translated": "The journey" },
+        { "original": "rumo à maturidade", "translated": "toward maturity" },
+        { "original": "psicológica e espiritual", "translated": "psychological and spiritual" },
+        { "original": "envolve um processo gradual", "translated": "involves a gradual process" },
+        { "original": "de reconhecimento", "translated": "of recognizing" },
+        { "original": "integração", "translated": "integrating" },
+        { "original": "e transcendência", "translated": "and transcending" },
+        { "original": "das várias polaridades", "translated": "the various polarities" },
+        { "original": "que inicialmente experimentamos", "translated": "that we initially experience" },
+        { "original": "como forças opostas", "translated": "as opposing forces" },
+        { "original": "em nossa psique", "translated": "in our psyche" },
+        { "original": "razão e emoção", "translated": "reason and emotion" },
+        { "original": "masculino e feminino", "translated": "masculine and feminine" },
+        { "original": "luz e sombra", "translated": "light and shadow" },
+        { "original": "estrutura e fluidez", "translated": "structure and fluidity" },
+        { "original": "individualidade e pertencimento", "translated": "individuality and belonging" },
+        { "original": "não através da negação", "translated": "not through denial" },
+        { "original": "de qualquer aspecto", "translated": "of any aspect" },
+        { "original": "de nossa multifacetada natureza", "translated": "of our multifaceted nature" },
+        { "original": "mas através do desenvolvimento", "translated": "but through developing" },
+        { "original": "de uma capacidade", "translated": "a capacity" },
+        { "original": "cada vez mais refinada", "translated": "increasingly refined" },
+        { "original": "de habitar", "translated": "to inhabit" },
+        { "original": "o espaço criativo", "translated": "the creative space" },
+        { "original": "de tensão", "translated": "of tension" },
+        { "original": "entre os opostos", "translated": "between opposites" },
+        { "original": "permitindo que", "translated": "allowing" },
+        { "original": "uma sabedoria", "translated": "a wisdom" },
+        { "original": "mais abrangente", "translated": "more comprehensive" },
+        { "original": "e integrativa", "translated": "and integrative" },
+        { "original": "emerja", "translated": "to emerge" },
+        { "original": "da dança dinâmica", "translated": "from the dynamic dance" },
+        { "original": "entre perspectivas", "translated": "between perspectives" },
+        { "original": "aparentemente contraditórias", "translated": "seemingly contradictory" }
+      ]
+    },
+    {
+      "text": "O ser humano autêntico não é aquele que alcança algum ideal predeterminado de perfeição, mas aquele que abraça corajosamente a totalidade de sua experiência – incluindo limitações, vulnerabilidades e contradições internas – e que, através desse abraço radical de sua humanidade imperfeita, paradoxalmente transcende as limitações do ego e descobre uma liberdade profunda que não depende de circunstâncias externas ou de uma imagem idealizada de si mesmo, mas flui naturalmente de uma aceitação incondicional do que é, momento a momento, na dança sempre mutável da consciência encarnada.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "The authentic human being is not one who achieves some predetermined ideal of perfection, but one who courageously embraces the totality of their experience—including limitations, vulnerabilities, and internal contradictions—and who, through this radical embrace of their imperfect humanity, paradoxically transcends the limitations of ego and discovers a profound freedom that depends not on external circumstances or an idealized self-image, but flows naturally from an unconditional acceptance of what is, moment by moment, in the ever-changing dance of embodied consciousness.",
+        "fr": "L'être humain authentique n'est pas celui qui atteint un idéal prédéterminé de perfection, mais celui qui embrasse courageusement la totalité de son expérience—y compris les limitations, les vulnérabilités et les contradictions internes—et qui, à travers cette étreinte radicale de son humanité imparfaite, transcende paradoxalement les limitations de l'ego et découvre une liberté profonde qui ne dépend pas des circonstances extérieures ou d'une image idéalisée de soi-même, mais coule naturellement d'une acceptation inconditionnelle de ce qui est, moment par moment, dans la danse toujours changeante de la conscience incarnée."
+      },
+      "mapping": [
+        { "original": "O ser humano autêntico", "translated": "The authentic human being" },
+        { "original": "não é aquele", "translated": "is not one" },
+        { "original": "que alcança", "translated": "who achieves" },
+        { "original": "algum ideal predeterminado", "translated": "some predetermined ideal" },
+        { "original": "de perfeição", "translated": "of perfection" },
+        { "original": "mas aquele", "translated": "but one" },
+        { "original": "que abraça corajosamente", "translated": "who courageously embraces" },
+        { "original": "a totalidade", "translated": "the totality" },
+        { "original": "de sua experiência", "translated": "of their experience" },
+        { "original": "incluindo limitações", "translated": "including limitations" },
+        { "original": "vulnerabilidades", "translated": "vulnerabilities" },
+        { "original": "e contradições internas", "translated": "and internal contradictions" },
+        { "original": "e que", "translated": "and who" },
+        { "original": "através desse abraço radical", "translated": "through this radical embrace" },
+        { "original": "de sua humanidade imperfeita", "translated": "of their imperfect humanity" },
+        { "original": "paradoxalmente transcende", "translated": "paradoxically transcends" },
+        { "original": "as limitações do ego", "translated": "the limitations of ego" },
+        { "original": "e descobre", "translated": "and discovers" },
+        { "original": "uma liberdade profunda", "translated": "a profound freedom" },
+        { "original": "que não depende", "translated": "that depends not" },
+        { "original": "de circunstâncias externas", "translated": "on external circumstances" },
+        { "original": "ou de uma imagem idealizada", "translated": "or an idealized image" },
+        { "original": "de si mesmo", "translated": "of self" },
+        { "original": "mas flui naturalmente", "translated": "but flows naturally" },
+        { "original": "de uma aceitação incondicional", "translated": "from an unconditional acceptance" },
+        { "original": "do que é", "translated": "of what is" },
+        { "original": "momento a momento", "translated": "moment by moment" },
+        { "original": "na dança sempre mutável", "translated": "in the ever-changing dance" },
+        { "original": "da consciência encarnada", "translated": "of embodied consciousness" }
+      ]
+    },
+    {
+      "text": "A verdadeira educação transformadora não é simplesmente um processo de transmissão de informações ou habilidades técnicas, mas uma jornada de despertar um amor intrínseco pelo aprendizado, cultivando uma curiosidade insaciável sobre a natureza multidimensional da realidade, desenvolvendo capacidades críticas para questionar suposições subjacentes e desafiar dogmas estabelecidos, e nutrindo a coragem para imaginar e co-criar possibilidades ainda não realizadas que possam responder aos desafios evolutivos que enfrentamos como indivíduos, comunidades e espécie em um momento de crise e oportunidade sem precedentes na história humana.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "Truly transformative education is not merely a process of transmitting information or technical skills, but a journey of awakening an intrinsic love for learning, cultivating an insatiable curiosity about the multidimensional nature of reality, developing critical capacities to question underlying assumptions and challenge established dogmas, and nurturing the courage to imagine and co-create as-yet-unrealized possibilities that can respond to the evolutionary challenges we face as individuals, communities, and species at a moment of unprecedented crisis and opportunity in human history.",
+        "fr": "L'éducation véritablement transformatrice n'est pas simplement un processus de transmission d'informations ou de compétences techniques, mais un voyage d'éveil d'un amour intrinsèque pour l'apprentissage, cultivant une curiosité insatiable sur la nature multidimensionnelle de la réalité, développant des capacités critiques pour questionner les hypothèses sous-jacentes et défier les dogmes établis, et nourrissant le courage d'imaginer et de co-créer des possibilités encore non réalisées qui puissent répondre aux défis évolutifs auxquels nous sommes confrontés en tant qu'individus, communautés et espèce à un moment de crise et d'opportunité sans précédent dans l'histoire humaine."
+      },
+      "mapping": [
+        { "original": "A verdadeira educação transformadora", "translated": "Truly transformative education" },
+        { "original": "não é simplesmente", "translated": "is not merely" },
+        { "original": "um processo de transmissão", "translated": "a process of transmitting" },
+        { "original": "de informações", "translated": "information" },
+        { "original": "ou habilidades técnicas", "translated": "or technical skills" },
+        { "original": "mas uma jornada", "translated": "but a journey" },
+        { "original": "de despertar", "translated": "of awakening" },
+        { "original": "um amor intrínseco", "translated": "an intrinsic love" },
+        { "original": "pelo aprendizado", "translated": "for learning" },
+        { "original": "cultivando uma curiosidade", "translated": "cultivating a curiosity" },
+        { "original": "insaciável", "translated": "insatiable" },
+        { "original": "sobre a natureza multidimensional", "translated": "about the multidimensional nature" },
+        { "original": "da realidade", "translated": "of reality" },
+        { "original": "desenvolvendo capacidades críticas", "translated": "developing critical capacities" },
+        { "original": "para questionar", "translated": "to question" },
+        { "original": "suposições subjacentes", "translated": "underlying assumptions" },
+        { "original": "e desafiar", "translated": "and challenge" },
+        { "original": "dogmas estabelecidos", "translated": "established dogmas" },
+        { "original": "e nutrindo", "translated": "and nurturing" },
+        { "original": "a coragem", "translated": "the courage" },
+        { "original": "para imaginar", "translated": "to imagine" },
+        { "original": "e co-criar", "translated": "and co-create" },
+        { "original": "possibilidades ainda não realizadas", "translated": "as-yet-unrealized possibilities" },
+        { "original": "que possam responder", "translated": "that can respond" },
+        { "original": "aos desafios evolutivos", "translated": "to the evolutionary challenges" },
+        { "original": "que enfrentamos", "translated": "we face" },
+        { "original": "como indivíduos", "translated": "as individuals" },
+        { "original": "comunidades e espécie", "translated": "communities, and species" },
+        { "original": "em um momento", "translated": "at a moment" },
+        { "original": "de crise e oportunidade", "translated": "of crisis and opportunity" },
+        { "original": "sem precedentes", "translated": "unprecedented" },
+        { "original": "na história humana", "translated": "in human history" }
+      ]
+    },
+    {
+      "text": "Enquanto nossa civilização tecnológica continua a expandir seu impacto material sobre os sistemas ecológicos planetários, nos encontramos em um momento evolutivo sem precedentes, confrontados com a necessidade urgente não apenas de reimaginar nossas estruturas econômicas, sistemas políticos e relações com o mundo natural, mas de empreender uma transformação igualmente profunda em nossas estruturas interiores de consciência, transcendendo as limitações de uma mentalidade fragmentada, reducionista e excessivamente individualista que gerou nossa crise atual, e cultivando formas mais integrativas, sistêmicas e compassivas de perceber, conhecer e existir que possam servir como base para uma civilização genuinamente sustentável e florescente.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "As our technological civilization continues to expand its material impact on planetary ecological systems, we find ourselves at an unprecedented evolutionary moment, confronted with the urgent need not only to reimagine our economic structures, political systems, and relationships with the natural world, but to undertake an equally profound transformation in our interior structures of consciousness, transcending the limitations of a fragmented, reductionist, and excessively individualistic mindset that has generated our current crisis, and cultivating more integrative, systemic, and compassionate ways of perceiving, knowing, and being that can serve as the foundation for a genuinely sustainable and flourishing civilization.",
+        "fr": "Alors que notre civilisation technologique continue d'étendre son impact matériel sur les systèmes écologiques planétaires, nous nous trouvons à un moment évolutif sans précédent, confrontés à la nécessité urgente non seulement de réimaginer nos structures économiques, nos systèmes politiques et nos relations avec le monde naturel, mais d'entreprendre une transformation tout aussi profonde dans nos structures intérieures de conscience, transcendant les limites d'une mentalité fragmentée, réductionniste et excessivement individualiste qui a généré notre crise actuelle, et cultivant des façons plus intégratives, systémiques et compatissantes de percevoir, de connaître et d'être qui puissent servir de fondement à une civilisation véritablement durable et florissante."
+      },
+      "mapping": [
+        { "original": "Enquanto nossa civilização", "translated": "As our civilization" },
+        { "original": "tecnológica", "translated": "technological" },
+        { "original": "continua a expandir", "translated": "continues to expand" },
+        { "original": "seu impacto material", "translated": "its material impact" },
+        { "original": "sobre os sistemas ecológicos", "translated": "on ecological systems" },
+        { "original": "planetários", "translated": "planetary" },
+        { "original": "nos encontramos", "translated": "we find ourselves" },
+        { "original": "em um momento evolutivo", "translated": "at an evolutionary moment" },
+        { "original": "sem precedentes", "translated": "unprecedented" },
+        { "original": "confrontados com", "translated": "confronted with" },
+        { "original": "a necessidade urgente", "translated": "the urgent need" },
+        { "original": "não apenas de reimaginar", "translated": "not only to reimagine" },
+        { "original": "nossas estruturas econômicas", "translated": "our economic structures" },
+        { "original": "sistemas políticos", "translated": "political systems" },
+        { "original": "e relações", "translated": "and relationships" },
+        { "original": "com o mundo natural", "translated": "with the natural world" },
+        { "original": "mas de empreender", "translated": "but to undertake" },
+        { "original": "uma transformação", "translated": "a transformation" },
+        { "original": "igualmente profunda", "translated": "equally profound" },
+        { "original": "em nossas estruturas interiores", "translated": "in our interior structures" },
+        { "original": "de consciência", "translated": "of consciousness" },
+        { "original": "transcendendo as limitações", "translated": "transcending the limitations" },
+        { "original": "de uma mentalidade", "translated": "of a mindset" },
+        { "original": "fragmentada, reducionista", "translated": "fragmented, reductionist" },
+        { "original": "e excessivamente individualista", "translated": "and excessively individualistic" },
+        { "original": "que gerou", "translated": "that has generated" },
+        { "original": "nossa crise atual", "translated": "our current crisis" },
+        { "original": "e cultivando formas", "translated": "and cultivating ways" },
+        { "original": "mais integrativas", "translated": "more integrative" },
+        { "original": "sistêmicas", "translated": "systemic" },
+        { "original": "e compassivas", "translated": "and compassionate" },
+        { "original": "de perceber, conhecer", "translated": "of perceiving, knowing" },
+        { "original": "e existir", "translated": "and being" },
+        { "original": "que possam servir", "translated": "that can serve" },
+        { "original": "como base", "translated": "as the foundation" },
+        { "original": "para uma civilização", "translated": "for a civilization" },
+        { "original": "genuinamente sustentável", "translated": "genuinely sustainable" },
+        { "original": "e florescente", "translated": "and flourishing" }
+      ]
+    },
+    {
+      "text": "Os desafios complexos e interconectados que a humanidade enfrenta neste momento sem precedentes de nossa história evolutiva – desde mudanças climáticas e perda de biodiversidade até desigualdades socioeconômicas crescentes e polarização política extrema – não podem ser efetivamente abordados através de soluções fragmentadas ou pensamento linear simplista, mas exigem uma transformação radical em nossas formas de perceber, compreender e responder à realidade, desenvolvendo uma inteligência coletiva verdadeiramente transdisciplinar que possa integrar perspectivas científicas, saberes indígenas, insights humanísticos e práticas contemplativas em uma síntese mais abrangente e equilibrada, capaz de orientar nossa espécie em direção a um futuro mais sábio, justo e regenerativo.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "The complex and interconnected challenges that humanity faces at this unprecedented moment in our evolutionary history—from climate change and biodiversity loss to growing socioeconomic inequalities and extreme political polarization—cannot be effectively addressed through fragmented solutions or simplistic linear thinking, but require a radical transformation in our ways of perceiving, understanding, and responding to reality, developing a truly transdisciplinary collective intelligence that can integrate scientific perspectives, indigenous knowledge, humanistic insights, and contemplative practices into a more comprehensive and balanced synthesis, capable of guiding our species toward a wiser, more just, and regenerative future.",
+        "fr": "Les défis complexes et interconnectés auxquels l'humanité est confrontée en ce moment sans précédent de notre histoire évolutive—des changements climatiques et de la perte de biodiversité aux inégalités socio-économiques croissantes et à la polarisation politique extrême—ne peuvent être abordés efficacement par des solutions fragmentées ou une pensée linéaire simpliste, mais exigent une transformation radicale dans nos façons de percevoir, de comprendre et de répondre à la réalité, développant une intelligence collective véritablement transdisciplinaire qui puisse intégrer perspectives scientifiques, savoirs autochtones, aperçus humanistes et pratiques contemplatives dans une synthèse plus complète et équilibrée, capable de guider notre espèce vers un avenir plus sage, plus juste et régénérateur."
+      },
+      "mapping": [
+        { "original": "Os desafios complexos", "translated": "The complex challenges" },
+        { "original": "e interconectados", "translated": "and interconnected" },
+        { "original": "que a humanidade enfrenta", "translated": "that humanity faces" },
+        { "original": "neste momento sem precedentes", "translated": "at this unprecedented moment" },
+        { "original": "de nossa história evolutiva", "translated": "in our evolutionary history" },
+        { "original": "desde mudanças climáticas", "translated": "from climate change" },
+        { "original": "e perda de biodiversidade", "translated": "and biodiversity loss" },
+        { "original": "até desigualdades socioeconômicas", "translated": "to socioeconomic inequalities" },
+        { "original": "crescentes", "translated": "growing" },
+        { "original": "e polarização política extrema", "translated": "and extreme political polarization" },
+        { "original": "não podem ser", "translated": "cannot be" },
+        { "original": "efetivamente abordados", "translated": "effectively addressed" },
+        { "original": "através de soluções fragmentadas", "translated": "through fragmented solutions" },
+        { "original": "ou pensamento linear", "translated": "or linear thinking" },
+        { "original": "simplista", "translated": "simplistic" },
+        { "original": "mas exigem", "translated": "but require" },
+        { "original": "uma transformação radical", "translated": "a radical transformation" },
+        { "original": "em nossas formas", "translated": "in our ways" },
+        { "original": "de perceber, compreender", "translated": "of perceiving, understanding" },
+        { "original": "e responder à realidade", "translated": "and responding to reality" },
+        { "original": "desenvolvendo", "translated": "developing" },
+        { "original": "uma inteligência coletiva", "translated": "a collective intelligence" },
+        { "original": "verdadeiramente transdisciplinar", "translated": "truly transdisciplinary" },
+        { "original": "que possa integrar", "translated": "that can integrate" },
+        { "original": "perspectivas científicas", "translated": "scientific perspectives" },
+        { "original": "saberes indígenas", "translated": "indigenous knowledge" },
+        { "original": "insights humanísticos", "translated": "humanistic insights" },
+        { "original": "e práticas contemplativas", "translated": "and contemplative practices" },
+        { "original": "em uma síntese", "translated": "into a synthesis" },
+        { "original": "mais abrangente", "translated": "more comprehensive" },
+        { "original": "e equilibrada", "translated": "and balanced" },
+        { "original": "capaz de orientar", "translated": "capable of guiding" },
+        { "original": "nossa espécie", "translated": "our species" },
+        { "original": "em direção a um futuro", "translated": "toward a future" },
+        { "original": "mais sábio", "translated": "wiser" },
+        { "original": "justo", "translated": "more just" },
+        { "original": "e regenerativo", "translated": "and regenerative" }
+      ]
+    },
+    {
+      "text": "À medida que a tecnologia de inteligência artificial continua a evoluir em ritmo acelerado, nos encontramos diante de questões profundamente filosóficas sobre a natureza da consciência, a relação entre mente e matéria, e o significado do que significa ser verdadeiramente humano em uma era onde nossas capacidades intelectuais tradicionalmente exclusivas podem ser cada vez mais emuladas por sistemas artificiais, convidando-nos a reconsiderar fundamentalmente nossos pressupostos sobre excepcionalismo humano e a desenvolver uma compreensão mais matizada de nossa própria cognição, que reconheça simultaneamente nossa continuidade evolutiva com outras formas de vida e as dimensões qualitativamente únicas de experiência consciente, criatividade, empatia e introspecção ética que talvez permaneçam irredutivelmente humanas.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "As artificial intelligence technology continues to evolve at an accelerating pace, we find ourselves confronting deeply philosophical questions about the nature of consciousness, the relationship between mind and matter, and the meaning of what it means to be truly human in an era where our traditionally exclusive intellectual capabilities can be increasingly emulated by artificial systems, inviting us to fundamentally reconsider our assumptions about human exceptionalism and to develop a more nuanced understanding of our own cognition that simultaneously recognizes our evolutionary continuity with other life forms and the qualitatively unique dimensions of conscious experience, creativity, empathy, and ethical introspection that may remain irreducibly human.",
+        "fr": "Alors que la technologie d'intelligence artificielle continue d'évoluer à un rythme accéléré, nous nous trouvons confrontés à des questions profondément philosophiques sur la nature de la conscience, la relation entre l'esprit et la matière, et la signification de ce que signifie être véritablement humain à une époque où nos capacités intellectuelles traditionnellement exclusives peuvent être de plus en plus émulées par des systèmes artificiels, nous invitant à reconsidérer fondamentalement nos hypothèses sur l'exceptionnalisme humain et à développer une compréhension plus nuancée de notre propre cognition qui reconnaisse simultanément notre continuité évolutive avec d'autres formes de vie et les dimensions qualitativement uniques d'expérience consciente, de créativité, d'empathie et d'introspection éthique qui peuvent rester irréductiblement humaines."
+      },
+      "mapping": [
+        { "original": "À medida que", "translated": "As" },
+        { "original": "a tecnologia de inteligência artificial", "translated": "artificial intelligence technology" },
+        { "original": "continua a evoluir", "translated": "continues to evolve" },
+        { "original": "em ritmo acelerado", "translated": "at an accelerating pace" },
+        { "original": "nos encontramos", "translated": "we find ourselves" },
+        { "original": "diante de questões", "translated": "confronting questions" },
+        { "original": "profundamente filosóficas", "translated": "deeply philosophical" },
+        { "original": "sobre a natureza", "translated": "about the nature" },
+        { "original": "da consciência", "translated": "of consciousness" },
+        { "original": "a relação entre", "translated": "the relationship between" },
+        { "original": "mente e matéria", "translated": "mind and matter" },
+        { "original": "e o significado", "translated": "and the meaning" },
+        { "original": "do que significa", "translated": "of what it means" },
+        { "original": "ser verdadeiramente humano", "translated": "to be truly human" },
+        { "original": "em uma era", "translated": "in an era" },
+        { "original": "onde nossas capacidades", "translated": "where our capabilities" },
+        { "original": "intelectuais", "translated": "intellectual" },
+        { "original": "tradicionalmente exclusivas", "translated": "traditionally exclusive" },
+        { "original": "podem ser cada vez mais", "translated": "can be increasingly" },
+        { "original": "emuladas", "translated": "emulated" },
+        { "original": "por sistemas artificiais", "translated": "by artificial systems" },
+        { "original": "convidando-nos", "translated": "inviting us" },
+        { "original": "a reconsiderar fundamentalmente", "translated": "to fundamentally reconsider" },
+        { "original": "nossos pressupostos", "translated": "our assumptions" },
+        { "original": "sobre excepcionalismo humano", "translated": "about human exceptionalism" },
+        { "original": "e a desenvolver", "translated": "and to develop" },
+        { "original": "uma compreensão mais matizada", "translated": "a more nuanced understanding" },
+        { "original": "de nossa própria cognição", "translated": "of our own cognition" },
+        { "original": "que reconheça simultaneamente", "translated": "that simultaneously recognizes" },
+        { "original": "nossa continuidade evolutiva", "translated": "our evolutionary continuity" },
+        { "original": "com outras formas de vida", "translated": "with other life forms" },
+        { "original": "e as dimensões", "translated": "and the dimensions" },
+        { "original": "qualitativamente únicas", "translated": "qualitatively unique" },
+        { "original": "de experiência consciente", "translated": "of conscious experience" },
+        { "original": "criatividade, empatia", "translated": "creativity, empathy" },
+        { "original": "e introspecção ética", "translated": "and ethical introspection" },
+        { "original": "que talvez permaneçam", "translated": "that may remain" },
+        { "original": "irredutivelmente humanas", "translated": "irreducibly human" }
+      ]
+    },
+    {
+      "text": "O desenvolvimento de uma compreensão verdadeiramente integral da existência humana nos convida a transcender as falsas dicotomias que fragmentaram nosso conhecimento e experiência em compartimentos artificialmente separados, reconhecendo as profundas interconexões entre dimensões físicas e metafísicas, objetivas e subjetivas, individuais e coletivas, tradicionais e progressistas, científicas e espirituais do nosso ser-no-mundo, e cultivando uma capacidade expansiva de habitar múltiplas perspectivas simultaneamente, não como um relativismo superficial que nivela todas as visões a meras opiniões equivalentes, mas como uma forma mais profunda de sabedoria que pode discernir padrões evolutivos de crescente complexidade, consciência e compaixão emergindo através da espiral do desenvolvimento humano.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "The development of a truly integral understanding of human existence invites us to transcend the false dichotomies that have fragmented our knowledge and experience into artificially separated compartments, recognizing the profound interconnections between physical and metaphysical, objective and subjective, individual and collective, traditional and progressive, scientific and spiritual dimensions of our being-in-the-world, and cultivating an expansive capacity to inhabit multiple perspectives simultaneously, not as a superficial relativism that reduces all views to merely equivalent opinions, but as a deeper form of wisdom that can discern evolutionary patterns of increasing complexity, consciousness, and compassion emerging through the spiral of human development.",
+        "fr": "Le développement d'une compréhension véritablement intégrale de l'existence humaine nous invite à transcender les fausses dichotomies qui ont fragmenté notre connaissance et notre expérience en compartiments artificiellement séparés, reconnaissant les profondes interconnexions entre les dimensions physiques et métaphysiques, objectives et subjectives, individuelles et collectives, traditionnelles et progressistes, scientifiques et spirituelles de notre être-au-monde, et cultivant une capacité expansive d'habiter simultanément des perspectives multiples, non pas comme un relativisme superficiel qui réduit toutes les vues à de simples opinions équivalentes, mais comme une forme plus profonde de sagesse qui peut discerner des modèles évolutifs de complexité, de conscience et de compassion croissantes émergeant à travers la spirale du développement humain."
+      },
+      "mapping": [
+        { "original": "O desenvolvimento", "translated": "The development" },
+        { "original": "de uma compreensão", "translated": "of an understanding" },
+        { "original": "verdadeiramente integral", "translated": "truly integral" },
+        { "original": "da existência humana", "translated": "of human existence" },
+        { "original": "nos convida", "translated": "invites us" },
+        { "original": "a transcender", "translated": "to transcend" },
+        { "original": "as falsas dicotomias", "translated": "the false dichotomies" },
+        { "original": "que fragmentaram", "translated": "that have fragmented" },
+        { "original": "nosso conhecimento", "translated": "our knowledge" },
+        { "original": "e experiência", "translated": "and experience" },
+        { "original": "em compartimentos", "translated": "into compartments" },
+        { "original": "artificialmente separados", "translated": "artificially separated" },
+        { "original": "reconhecendo", "translated": "recognizing" },
+        { "original": "as profundas interconexões", "translated": "the profound interconnections" },
+        { "original": "entre dimensões físicas", "translated": "between physical dimensions" },
+        { "original": "e metafísicas", "translated": "and metaphysical" },
+        { "original": "objetivas e subjetivas", "translated": "objective and subjective" },
+        { "original": "individuais e coletivas", "translated": "individual and collective" },
+        { "original": "tradicionais e progressistas", "translated": "traditional and progressive" },
+        { "original": "científicas e espirituais", "translated": "scientific and spiritual" },
+        { "original": "do nosso ser-no-mundo", "translated": "of our being-in-the-world" },
+        { "original": "e cultivando", "translated": "and cultivating" },
+        { "original": "uma capacidade expansiva", "translated": "an expansive capacity" },
+        { "original": "de habitar", "translated": "to inhabit" },
+        { "original": "múltiplas perspectivas", "translated": "multiple perspectives" },
+        { "original": "simultaneamente", "translated": "simultaneously" },
+        { "original": "não como um relativismo", "translated": "not as a relativism" },
+        { "original": "superficial", "translated": "superficial" },
+        { "original": "que nivela todas as visões", "translated": "that reduces all views" },
+        { "original": "a meras opiniões", "translated": "to merely opinions" },
+        { "original": "equivalentes", "translated": "equivalent" },
+        { "original": "mas como uma forma", "translated": "but as a form" },
+        { "original": "mais profunda", "translated": "deeper" },
+        { "original": "de sabedoria", "translated": "of wisdom" },
+        { "original": "que pode discernir", "translated": "that can discern" },
+        { "original": "padrões evolutivos", "translated": "evolutionary patterns" },
+        { "original": "de crescente complexidade", "translated": "of increasing complexity" },
+        { "original": "consciência e compaixão", "translated": "consciousness, and compassion" },
+        { "original": "emergindo através", "translated": "emerging through" },
+        { "original": "da espiral", "translated": "the spiral" },
+        { "original": "do desenvolvimento humano", "translated": "of human development" }
+      ]
+    },
+    {
+      "text": "No cerne de toda grande tradição de sabedoria encontra-se o reconhecimento paradoxal de que a realidade última transcende fundamentalmente todas as nossas categorias conceituais e sistemas de representação linguística, permanecendo irredutivelmente misteriosa e inefável em sua essência mais profunda, ao mesmo tempo em que está imediatamente presente e acessível na própria experiência direta da consciência quando esta se aquieta o suficiente para repousar em seu próprio fundamento primordial, antes da divisão dualística entre observador e observado, sujeito e objeto, mente e mundo, revelando a não-dualidade essencial que os místicos de diversas tradições culturais têm consistentemente apontado como a verdade integrativa subjacente à multiplicidade aparente das formas manifestas.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "At the heart of every great wisdom tradition lies the paradoxical recognition that ultimate reality fundamentally transcends all our conceptual categories and systems of linguistic representation, remaining irreducibly mysterious and ineffable in its deepest essence, while simultaneously being immediately present and accessible in the direct experience of consciousness itself when it becomes quiet enough to rest in its own primordial ground, prior to the dualistic division between observer and observed, subject and object, mind and world, revealing the essential non-duality that mystics across diverse cultural traditions have consistently pointed to as the integrative truth underlying the apparent multiplicity of manifest forms.",
+        "fr": "Au cœur de toute grande tradition de sagesse se trouve la reconnaissance paradoxale que la réalité ultime transcende fondamentalement toutes nos catégories conceptuelles et systèmes de représentation linguistique, demeurant irréductiblement mystérieuse et ineffable dans son essence la plus profonde, tout en étant immédiatement présente et accessible dans l'expérience directe de la conscience elle-même lorsqu'elle devient suffisamment calme pour reposer dans son propre fondement primordial, avant la division dualiste entre observateur et observé, sujet et objet, esprit et monde, révélant la non-dualité essentielle que les mystiques de diverses traditions culturelles ont constamment désignée comme la vérité intégrative sous-jacente à la multiplicité apparente des formes manifestées."
+      },
+      "mapping": [
+        { "original": "No cerne", "translated": "At the heart" },
+        { "original": "de toda grande tradição", "translated": "of every great tradition" },
+        { "original": "de sabedoria", "translated": "wisdom" },
+        { "original": "encontra-se", "translated": "lies" },
+        { "original": "o reconhecimento paradoxal", "translated": "the paradoxical recognition" },
+        { "original": "de que a realidade última", "translated": "that ultimate reality" },
+        { "original": "transcende fundamentalmente", "translated": "fundamentally transcends" },
+        { "original": "todas as nossas categorias", "translated": "all our categories" },
+        { "original": "conceituais", "translated": "conceptual" },
+        { "original": "e sistemas", "translated": "and systems" },
+        { "original": "de representação linguística", "translated": "of linguistic representation" },
+        { "original": "permanecendo", "translated": "remaining" },
+        { "original": "irredutivelmente misteriosa", "translated": "irreducibly mysterious" },
+        { "original": "e inefável", "translated": "and ineffable" },
+        { "original": "em sua essência mais profunda", "translated": "in its deepest essence" },
+        { "original": "ao mesmo tempo em que", "translated": "while simultaneously" },
+        { "original": "está imediatamente presente", "translated": "being immediately present" },
+        { "original": "e acessível", "translated": "and accessible" },
+        { "original": "na própria experiência direta", "translated": "in the direct experience" },
+        { "original": "da consciência", "translated": "of consciousness itself" },
+        { "original": "quando esta se aquieta", "translated": "when it becomes quiet" },
+        { "original": "o suficiente", "translated": "enough" },
+        { "original": "para repousar", "translated": "to rest" },
+        { "original": "em seu próprio fundamento", "translated": "in its own ground" },
+        { "original": "primordial", "translated": "primordial" },
+        { "original": "antes da divisão", "translated": "prior to the division" },
+        { "original": "dualística", "translated": "dualistic" },
+        { "original": "entre observador e observado", "translated": "between observer and observed" },
+        { "original": "sujeito e objeto", "translated": "subject and object" },
+        { "original": "mente e mundo", "translated": "mind and world" },
+        { "original": "revelando", "translated": "revealing" },
+        { "original": "a não-dualidade essencial", "translated": "the essential non-duality" },
+        { "original": "que os místicos", "translated": "that mystics" },
+        { "original": "de diversas tradições", "translated": "across diverse traditions" },
+        { "original": "culturais", "translated": "cultural" },
+        { "original": "têm consistentemente", "translated": "have consistently" },
+        { "original": "apontado", "translated": "pointed to" },
+        { "original": "como a verdade integrativa", "translated": "as the integrative truth" },
+        { "original": "subjacente à", "translated": "underlying" },
+        { "original": "multiplicidade aparente", "translated": "the apparent multiplicity" },
+        { "original": "das formas manifestas", "translated": "of manifest forms" }
+      ]
+    },
+    {
+      "text": "A transformação pessoal autêntica raramente ocorre através de mera acumulação gradual de novos conhecimentos ou técnicas, mas frequentemente requer uma desestabilização profunda de nossas estruturas egóicas habituais e pressupostos fundamentais sobre a realidade, provocando uma reorganização qualitativa de nossa identidade e visão de mundo em um nível mais inclusivo, integrado e compassivo de desenvolvimento, geralmente catalisado por experiências significativas de crise, sofrimento, amor incondicional ou insight espiritual que nos permitem transcender as limitações de nossa antiga narrativa autobiográfica e despertar para dimensões mais expansivas de nosso potencial humano e nosso pertencimento essencial à comunidade mais ampla de vida da qual emergimos e à qual permanecemos intrinsecamente conectados.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "Authentic personal transformation rarely occurs through mere gradual accumulation of new knowledge or techniques, but often requires a profound destabilization of our habitual egoic structures and fundamental assumptions about reality, precipitating a qualitative reorganization of our identity and worldview at a more inclusive, integrated, and compassionate level of development, typically catalyzed by significant experiences of crisis, suffering, unconditional love, or spiritual insight that allow us to transcend the limitations of our former autobiographical narrative and awaken to more expansive dimensions of our human potential and our essential belonging to the wider community of life from which we emerge and to which we remain intrinsically connected.",
+        "fr": "La transformation personnelle authentique se produit rarement par simple accumulation graduelle de nouvelles connaissances ou techniques, mais nécessite souvent une déstabilisation profonde de nos structures égoïques habituelles et de nos hypothèses fondamentales sur la réalité, provoquant une réorganisation qualitative de notre identité et de notre vision du monde à un niveau plus inclusif, intégré et compatissant de développement, généralement catalysé par des expériences significatives de crise, de souffrance, d'amour inconditionnel ou d'insight spirituel qui nous permettent de transcender les limites de notre ancien récit autobiographique et de nous éveiller à des dimensions plus expansives de notre potentiel humain et de notre appartenance essentielle à la communauté plus large de vie dont nous émergeons et à laquelle nous restons intrinsèquement connectés."
+      },
+      "mapping": [
+        { "original": "A transformação pessoal", "translated": "personal transformation" },
+        { "original": "autêntica", "translated": "Authentic" },
+        { "original": "raramente ocorre", "translated": "rarely occurs" },
+        { "original": "através de mera acumulação", "translated": "through mere accumulation" },
+        { "original": "gradual", "translated": "gradual" },
+        { "original": "de novos conhecimentos", "translated": "of new knowledge" },
+        { "original": "ou técnicas", "translated": "or techniques" },
+        { "original": "mas frequentemente requer", "translated": "but often requires" },
+        { "original": "uma desestabilização profunda", "translated": "a profound destabilization" },
+        { "original": "de nossas estruturas egóicas", "translated": "of our egoic structures" },
+        { "original": "habituais", "translated": "habitual" },
+        { "original": "e pressupostos fundamentais", "translated": "and fundamental assumptions" },
+        { "original": "sobre a realidade", "translated": "about reality" },
+        { "original": "provocando", "translated": "precipitating" },
+        { "original": "uma reorganização qualitativa", "translated": "a qualitative reorganization" },
+        { "original": "de nossa identidade", "translated": "of our identity" },
+        { "original": "e visão de mundo", "translated": "and worldview" },
+        { "original": "em um nível mais inclusivo", "translated": "at a more inclusive level" },
+        { "original": "integrado e compassivo", "translated": "integrated, and compassionate" },
+        { "original": "de desenvolvimento", "translated": "of development" },
+        { "original": "geralmente catalisado", "translated": "typically catalyzed" },
+        { "original": "por experiências significativas", "translated": "by significant experiences" },
+        { "original": "de crise, sofrimento", "translated": "of crisis, suffering" },
+        { "original": "amor incondicional", "translated": "unconditional love" },
+        { "original": "ou insight espiritual", "translated": "or spiritual insight" },
+        { "original": "que nos permitem", "translated": "that allow us" },
+        { "original": "transcender as limitações", "translated": "to transcend the limitations" },
+        { "original": "de nossa antiga", "translated": "of our former" },
+        { "original": "narrativa autobiográfica", "translated": "autobiographical narrative" },
+        { "original": "e despertar para", "translated": "and awaken to" },
+        { "original": "dimensões mais expansivas", "translated": "more expansive dimensions" },
+        { "original": "de nosso potencial humano", "translated": "of our human potential" },
+        { "original": "e nosso pertencimento essencial", "translated": "and our essential belonging" },
+        { "original": "à comunidade mais ampla", "translated": "to the wider community" },
+        { "original": "de vida", "translated": "of life" },
+        { "original": "da qual emergimos", "translated": "from which we emerge" },
+        { "original": "e à qual permanecemos", "translated": "and to which we remain" },
+        { "original": "intrinsecamente conectados", "translated": "intrinsically connected" }
+      ]
+    },
+    {
+      "text": "A imagem científica e contemplativa do cosmos que está emergindo em nosso tempo revela um universo inerentemente dinâmico, relacional e evolutivo, caracterizado por um impulso criativo em direção a níveis cada vez mais elevados de complexidade, consciência e interconexão, desde a formação dos primeiros elementos nas fornalhas estelares, através da evolução da vida multicelular e da emergência gradual da autoconsciência reflexiva em nossa própria espécie, até os imensos desafios e possibilidades sem precedentes que enfrentamos agora como uma civilização planetária nascente, convidando cada um de nós a participar conscientemente deste desdobramento cósmico através do cultivo de capacidades cognitivas, emocionais e éticas que possam contribuir para a realização do extraordinário potencial ainda latente em nossa humanidade emergente.",
+      "difficulty": "very_hard",
+      "translation": {
+        "en": "The scientific and contemplative image of the cosmos that is emerging in our time reveals an inherently dynamic, relational, and evolutionary universe, characterized by a creative impulse toward ever-higher levels of complexity, consciousness, and interconnection, from the formation of the first elements in stellar furnaces, through the evolution of multicellular life and the gradual emergence of reflective self-awareness in our own species, to the immense challenges and unprecedented possibilities we now face as a nascent planetary civilization, inviting each of us to consciously participate in this cosmic unfolding through the cultivation of cognitive, emotional, and ethical capacities that can contribute to the realization of the extraordinary potential still latent in our emerging humanity.",
+        "fr": "L'image scientifique et contemplative du cosmos qui émerge à notre époque révèle un univers intrinsèquement dynamique, relationnel et évolutif, caractérisé par une impulsion créative vers des niveaux toujours plus élevés de complexité, de conscience et d'interconnexion, depuis la formation des premiers éléments dans les fournaises stellaires, à travers l'évolution de la vie multicellulaire et l'émergence graduelle de la conscience réflexive de soi dans notre propre espèce, jusqu'aux immenses défis et possibilités sans précédent auxquels nous sommes maintenant confrontés en tant que civilisation planétaire naissante, invitant chacun de nous à participer consciemment à ce déploiement cosmique par la culture de capacités cognitives, émotionnelles et éthiques qui peuvent contribuer à la réalisation du potentiel extraordinaire encore latent dans notre humanité émergente."
+      },
+      "mapping": [
+        { "original": "A imagem científica", "translated": "The scientific image" },
+        { "original": "e contemplativa", "translated": "and contemplative" },
+        { "original": "do cosmos", "translated": "of the cosmos" },
+        { "original": "que está emergindo", "translated": "that is emerging" },
+        { "original": "em nosso tempo", "translated": "in our time" },
+        { "original": "revela um universo", "translated": "reveals a universe" },
+        { "original": "inerentemente dinâmico", "translated": "inherently dynamic" },
+        { "original": "relacional e evolutivo", "translated": "relational, and evolutionary" },
+        { "original": "caracterizado por", "translated": "characterized by" },
+        { "original": "um impulso criativo", "translated": "a creative impulse" },
+        { "original": "em direção a níveis", "translated": "toward levels" },
+        { "original": "cada vez mais elevados", "translated": "ever-higher" },
+        { "original": "de complexidade", "translated": "of complexity" },
+        { "original": "consciência e interconexão", "translated": "consciousness, and interconnection" },
+        { "original": "desde a formação", "translated": "from the formation" },
+        { "original": "dos primeiros elementos", "translated": "of the first elements" },
+        { "original": "nas fornalhas estelares", "translated": "in stellar furnaces" },
+        { "original": "através da evolução", "translated": "through the evolution" },
+        { "original": "da vida multicelular", "translated": "of multicellular life" },
+        { "original": "e da emergência gradual", "translated": "and the gradual emergence" },
+        { "original": "da autoconsciência reflexiva", "translated": "of reflective self-awareness" },
+        { "original": "em nossa própria espécie", "translated": "in our own species" },
+        { "original": "até os imensos desafios", "translated": "to the immense challenges" },
+        { "original": "e possibilidades sem precedentes", "translated": "and unprecedented possibilities" },
+        { "original": "que enfrentamos agora", "translated": "we now face" },
+        { "original": "como uma civilização", "translated": "as a civilization" },
+        { "original": "planetária nascente", "translated": "nascent planetary" },
+        { "original": "convidando cada um de nós", "translated": "inviting each of us" },
+        { "original": "a participar conscientemente", "translated": "to consciously participate" },
+        { "original": "deste desdobramento cósmico", "translated": "in this cosmic unfolding" },
+        { "original": "através do cultivo", "translated": "through the cultivation" },
+        { "original": "de capacidades cognitivas", "translated": "of cognitive capacities" },
+        { "original": "emocionais e éticas", "translated": "emotional, and ethical" },
+        { "original": "que possam contribuir", "translated": "that can contribute" },
+        { "original": "para a realização", "translated": "to the realization" },
+        { "original": "do extraordinário potencial", "translated": "of the extraordinary potential" },
+        { "original": "ainda latente", "translated": "still latent" },
+        { "original": "em nossa humanidade emergente", "translated": "in our emerging humanity" }
+      ]
     }
   ]
 }
+
