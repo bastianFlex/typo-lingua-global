@@ -35,7 +35,8 @@ const TextToSpeech: React.FC<TextToSpeechProps> = ({
       const voiceId = language === 'fr' ? 'CwhRBWXzGAHq8TQ4Fs17' : 'bIHbv24MWmeRgasZH58o';
       await conversation.startSession({
         agentId: voiceId,
-        text
+        // The API expects firstMessage instead of text
+        firstMessage: text
       });
     } catch (error) {
       console.error('TTS error:', error);

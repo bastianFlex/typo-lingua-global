@@ -20,6 +20,7 @@ export interface Phrase {
     original: string;
     translated: string;
   }>;
+  originalText?: string; // Added this property to fix the error
 }
 
 export interface PhraseCollection {
