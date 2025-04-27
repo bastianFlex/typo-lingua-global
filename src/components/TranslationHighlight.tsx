@@ -1,8 +1,6 @@
 
 import React from 'react';
 import { LanguageCode } from '@/types';
-import { Volume2 } from 'lucide-react';
-import TextToSpeech from './TextToSpeech';
 
 interface TranslationHighlightProps {
   originalText: string;
@@ -20,24 +18,16 @@ const TranslationHighlight: React.FC<TranslationHighlightProps> = ({
   targetLang,
 }) => {
   return (
-    <div className="glass-dark-card p-6 space-y-4 shadow-xl shadow-indigo-900/20">
-      <h3 className="text-xl font-bold text-indigo-200 mb-4 tracking-wide">
+    <div className="glass-dark-card bg-slate-900/80 p-6 space-y-4 shadow-xl border border-emerald-500/20">
+      <h3 className="text-xl font-bold text-emerald-400 mb-4 tracking-wide">
         Tradução com Destaques
       </h3>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Original Text with Highlights */}
         <div className="space-y-3">
-          <div className="flex items-center justify-between">
-            <div className="text-sm text-indigo-300 mb-1 font-medium">
-              {sourceLang === 'pt' ? 'Português' : sourceLang === 'en' ? 'English' : 'Français'}:
-            </div>
-            <TextToSpeech 
-              text={originalText}
-              language={sourceLang}
-              enabled={true}
-              volume={0.5}
-            />
+          <div className="text-sm text-emerald-300 mb-1 font-medium">
+            {sourceLang === 'pt' ? 'Português' : sourceLang === 'en' ? 'English' : 'Français'}:
           </div>
           <div className="text-white text-lg leading-relaxed">
             {mapping.map((item, index) => (
@@ -55,16 +45,8 @@ const TranslationHighlight: React.FC<TranslationHighlightProps> = ({
 
         {/* Translated Text with Highlights */}
         <div className="space-y-3">
-          <div className="flex items-center justify-between">
-            <div className="text-sm text-indigo-300 mb-1 font-medium">
-              {targetLang === 'pt' ? 'Português' : targetLang === 'en' ? 'English' : 'Français'}:
-            </div>
-            <TextToSpeech 
-              text={translatedText}
-              language={targetLang}
-              enabled={true}
-              volume={0.5}
-            />
+          <div className="text-sm text-emerald-300 mb-1 font-medium">
+            {targetLang === 'pt' ? 'Português' : targetLang === 'en' ? 'English' : 'Français'}:
           </div>
           <div className="text-white text-lg leading-relaxed">
             {mapping.map((item, index) => (

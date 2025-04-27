@@ -252,21 +252,21 @@ const TypingArea: React.FC<TypingAreaProps> = ({
     if (status === 'idle') {
       return (
         <div 
-          className="glass-dark-card cursor-pointer p-6 hover:bg-indigo-900/30 transition-all duration-300 text-xl"
+          className="glass-dark-card bg-slate-900/80 cursor-pointer p-6 hover:bg-slate-800/80 transition-all duration-300 text-xl border border-emerald-500/20"
           onClick={() => startTyping()}>
-          <span className="text-indigo-200/70">Clique aqui e comece a digitar...</span>
+          <span className="text-emerald-200/70">Clique aqui e comece a digitar...</span>
         </div>
       );
     }
 
     return (
-      <div className="glass-dark-card p-6 text-xl shadow-lg">
+      <div className="glass-dark-card bg-slate-900/80 p-6 text-xl shadow-lg border border-emerald-500/20">
         {targetText.split('').map((char, index) => {
           let charClass = '';
           
           if (index < userInput.length) {
             charClass = userInput[index] === char 
-              ? 'text-green-400 font-medium' 
+              ? 'text-emerald-400 font-medium' 
               : 'text-red-400 bg-red-900/30 font-medium';
           }
           
@@ -313,8 +313,8 @@ const TypingArea: React.FC<TypingAreaProps> = ({
 
   return (
     <div className="w-full flex flex-col space-y-6 animate-[fadeInUp_0.5s_ease-out]">
-      <div className="typing-card glass-dark-card shadow-xl shadow-indigo-900/20">
-        <div className="mb-6 text-2xl font-semibold bg-gradient-to-r from-indigo-100 to-indigo-400 bg-clip-text text-transparent">
+      <div className="typing-card glass-dark-card bg-slate-900/80 border border-emerald-500/20">
+        <div className="mb-6 text-2xl font-semibold bg-gradient-to-r from-emerald-300 to-blue-400 bg-clip-text text-transparent">
           {phrase.text}
         </div>
         
@@ -327,30 +327,13 @@ const TypingArea: React.FC<TypingAreaProps> = ({
             targetLang={languagePair.target}
           />
         )}
-        
-        <div className="flex justify-end space-x-3 mt-6">
-          <TextToSpeech
-            text={phrase.text}
-            language={languagePair.source}
-            enabled={audioSettings.enabled}
-            volume={audioSettings.volume}
-          />
-          {phrase.translation[languagePair.target] && (
-            <TextToSpeech
-              text={phrase.translation[languagePair.target] || ''}
-              language={languagePair.target}
-              enabled={audioSettings.enabled}
-              volume={audioSettings.volume}
-            />
-          )}
-        </div>
       </div>
 
       {status === 'idle' ? (
         <div className="w-full flex justify-center">
           <Button
             onClick={startTyping}
-            className="bg-gradient-to-r from-indigo-700 to-purple-700 hover:from-indigo-800 hover:to-purple-800 text-white px-10 py-6 text-lg shadow-lg hover:shadow-indigo-700/30 transform transition-all duration-300 hover:scale-105 rounded-xl"
+            className="bg-gradient-to-r from-emerald-700 to-blue-800 hover:from-emerald-800 hover:to-blue-900 text-white px-10 py-6 text-lg shadow-lg hover:shadow-emerald-700/30 transform transition-all duration-300 hover:scale-105 rounded-xl"
           >
             <Play className="mr-2 h-5 w-5" /> Iniciar Digitação
           </Button>
@@ -358,17 +341,17 @@ const TypingArea: React.FC<TypingAreaProps> = ({
       ) : (
         <div className="w-full animate-[fadeInUp_0.6s_ease-out]">
           <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center space-x-2 glass-dark-card px-4 py-2 rounded-full">
-              <Clock className="h-5 w-5 text-indigo-300" />
+            <div className="flex items-center space-x-2 glass-dark-card bg-slate-900/80 px-4 py-2 rounded-full border border-emerald-500/20">
+              <Clock className="h-5 w-5 text-emerald-300" />
               <span className="text-xl font-mono text-white">{formatTime(remainingTime)}</span>
             </div>
-            <div className="flex items-center space-x-2 glass-dark-card px-4 py-2 rounded-full">
+            <div className="flex items-center space-x-2 glass-dark-card bg-slate-900/80 px-4 py-2 rounded-full border border-emerald-500/20">
               <Award className={`h-5 w-5 ${getDifficultyColor()}`} />
               <span className={`${getDifficultyColor()}`}>{getDifficultyLabel()}</span>
             </div>
-            <div className="glass-dark-card px-4 py-2 rounded-full">
+            <div className="glass-dark-card bg-slate-900/80 px-4 py-2 rounded-full border border-emerald-500/20">
               {audioSettings.enabled ? (
-                <Volume2 className="h-5 w-5 text-indigo-300" />
+                <Volume2 className="h-5 w-5 text-emerald-300" />
               ) : (
                 <VolumeX className="h-5 w-5 text-gray-400" />
               )}
@@ -376,9 +359,15 @@ const TypingArea: React.FC<TypingAreaProps> = ({
           </div>
           
           {timeOption !== 'infinite' && (
-            <div className="animated-progress mb-6 glow-effect">
-              <div className="h-full bg-gradient-to-r from-indigo-600 to-purple-600" 
-                style={{ width: `${progressPercent}%`, transition: 'width 1s linear' }} />
+            <div className="relative w-full h-2 bg-slate-800 rounded-full mb-6 overflow-hidden border border-emerald-500/20">
+              <div 
+                className="absolute top-0 left-0 h-full bg-gradient-to-r from-emerald-600 to-blue-600"
+                style={{ 
+                  width: `${progressPercent}%`,
+                  transition: 'width 1s linear',
+                  boxShadow: '0 0 10px rgba(16, 185, 129, 0.5)'
+                }}
+              />
             </div>
           )}
 
@@ -392,25 +381,25 @@ const TypingArea: React.FC<TypingAreaProps> = ({
             value={userInput}
             onChange={handleInputChange}
             disabled={status === 'finished' || isPaused}
-            className="w-full p-4 glass-dark-card border-2 border-indigo-700/20 focus:border-indigo-500/50 rounded-xl text-white 
-                     focus:outline-none focus:ring-0 shadow-inner placeholder:text-white/50 text-lg"
+            className="w-full p-4 glass-dark-card border-2 border-emerald-700/20 focus:border-emerald-500/50 rounded-xl text-white 
+                     focus:outline-none focus:ring-0 shadow-inner placeholder:text-white/50 text-lg bg-slate-900/80"
             placeholder="Digite o texto acima..."
             autoFocus
           />
           
           <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mt-6">
-            <div className="stats-card text-center">
-              <div className="text-indigo-300 text-sm mb-1">Tempo</div>
+            <div className="stats-card text-center bg-slate-900/80">
+              <div className="text-emerald-300 text-sm mb-1">Tempo</div>
               <div className="text-xl font-mono text-white">{formatTime(stats.time)}</div>
             </div>
             
-            <div className="stats-card text-center">
-              <div className="text-indigo-300 text-sm mb-1">PPM</div>
-              <div className="text-xl font-mono text-indigo-400">{status === 'finished' ? stats.wpm : (status === 'started' ? '...' : 0)}</div>
+            <div className="stats-card text-center bg-slate-900/80">
+              <div className="text-emerald-300 text-sm mb-1">PPM</div>
+              <div className="text-xl font-mono text-emerald-400">{status === 'finished' ? stats.wpm : (status === 'started' ? '...' : 0)}</div>
             </div>
             
-            <div className="stats-card text-center">
-              <div className="text-indigo-300 text-sm mb-1">Precisão</div>
+            <div className="stats-card text-center bg-slate-900/80">
+              <div className="text-emerald-300 text-sm mb-1">Precisão</div>
               <div className="text-xl font-mono text-green-400">
                 {status === 'finished' ? `${stats.accuracy}%` : 
                  (status === 'started' && (charStats.correct + charStats.error > 0) ? 
@@ -418,8 +407,8 @@ const TypingArea: React.FC<TypingAreaProps> = ({
               </div>
             </div>
             
-            <div className="stats-card text-center">
-              <div className="text-indigo-300 text-sm mb-1 flex justify-center items-center gap-1">
+            <div className="stats-card text-center bg-slate-900/80">
+              <div className="text-emerald-300 text-sm mb-1 flex justify-center items-center gap-1">
                 Acertos <Check className="h-4 w-4 text-green-500" />
               </div>
               <div className="text-xl font-mono text-green-400">
@@ -427,8 +416,8 @@ const TypingArea: React.FC<TypingAreaProps> = ({
               </div>
             </div>
             
-            <div className="stats-card text-center">
-              <div className="text-indigo-300 text-sm mb-1 flex justify-center items-center gap-1">
+            <div className="stats-card text-center bg-slate-900/80">
+              <div className="text-emerald-300 text-sm mb-1 flex justify-center items-center gap-1">
                 Erros <X className="h-4 w-4 text-red-500" />
               </div>
               <div className="text-xl font-mono text-red-400">
@@ -456,7 +445,7 @@ const TypingArea: React.FC<TypingAreaProps> = ({
             
             <Button
               onClick={resetTyping}
-              className="bg-gradient-to-r from-indigo-700 to-purple-700 hover:brightness-110 text-white px-6 py-2 rounded-xl shadow-lg"
+              className="bg-gradient-to-r from-emerald-700 to-blue-800 hover:brightness-110 text-white px-6 py-2 rounded-xl shadow-lg"
             >
               <RotateCcw className="mr-2 h-4 w-4" /> {status === 'finished' ? 'Tentar Novamente' : 'Reiniciar'}
             </Button>
