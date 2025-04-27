@@ -12,16 +12,21 @@ export interface Translation {
 
 export interface Phrase {
   text: string;
+  difficulty?: Difficulty;
   translation: {
     [key in LanguageCode]?: string;
   };
+  mapping?: Array<{
+    original: string;
+    translated: string;
+  }>;
 }
 
 export interface PhraseCollection {
   [key: string]: Phrase[];
 }
 
-export type Difficulty = 'easy' | 'medium' | 'hard' | 'expert';
+export type Difficulty = 'easy' | 'medium' | 'hard' | 'expert' | 'very_hard';
 
 export type TimeOption = '1' | '2' | '3' | '4' | '5' | 'infinite';
 
