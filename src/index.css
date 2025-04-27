@@ -81,7 +81,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-gradient-to-bl from-indigo-950 via-blue-900 to-blue-950 text-foreground;
+    @apply bg-gradient-to-bl from-indigo-950 via-purple-950 to-blue-950 text-foreground;
     background-attachment: fixed;
   }
 }
@@ -139,17 +139,30 @@
   }
 }
 
+@keyframes glow {
+  0%, 100% { 
+    box-shadow: 0 0 5px rgba(138, 85, 230, 0.3);
+  }
+  50% { 
+    box-shadow: 0 0 20px rgba(138, 85, 230, 0.6);
+  }
+}
+
 /* Classes customizadas */
 .glass-card {
   @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl shadow-lg;
 }
 
+.glass-dark-card {
+  @apply bg-indigo-950/30 backdrop-blur-lg border border-indigo-700/20 rounded-xl shadow-lg;
+}
+
 .gradient-border {
-  @apply relative border-0 before:absolute before:inset-0 before:-z-10 before:p-[2px] before:rounded-xl before:bg-gradient-to-r before:from-app-light-blue before:via-app-purple before:to-app-light-blue overflow-hidden;
+  @apply relative border-0 before:absolute before:inset-0 before:-z-10 before:p-[2px] before:rounded-xl before:bg-gradient-to-r before:from-indigo-600 before:via-purple-600 before:to-indigo-600 overflow-hidden;
 }
 
 .typing-card {
-  @apply glass-card p-6 animate-[fadeInUp_0.5s_ease-out];
+  @apply glass-dark-card p-6 animate-[fadeInUp_0.5s_ease-out];
 }
 
 .shimmer-bg {
@@ -174,26 +187,30 @@
 }
 
 .stats-card {
-  @apply glass-card p-4 transition-all duration-300 hover:bg-white/20 hover:border-app-purple/50;
+  @apply glass-dark-card p-4 transition-all duration-300 hover:bg-indigo-900/20 hover:border-indigo-600/50;
 }
 
 .gradient-text {
-  @apply bg-gradient-to-r from-app-light-blue to-app-purple bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent;
 }
 
 .tab-active {
-  @apply relative after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:bg-gradient-to-r after:from-app-light-blue after:to-app-purple;
+  @apply relative after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:bg-gradient-to-r after:from-indigo-500 after:to-purple-500;
 }
 
 /* Estilo do progress bar */
 .animated-progress {
-  @apply h-2 bg-gray-700/50 rounded-full overflow-hidden relative;
+  @apply h-2 bg-gray-800/50 rounded-full overflow-hidden relative;
 }
 
 .animated-progress::after {
   content: "";
-  @apply absolute top-0 left-0 h-full w-full bg-gradient-to-r from-app-light-blue to-app-purple;
+  @apply absolute top-0 left-0 h-full w-full bg-gradient-to-r from-indigo-600 to-purple-500;
   background-size: 200% 100%;
   animation: gradientShift 3s infinite linear;
+}
+
+.glow-effect {
+  animation: glow 2s infinite;
 }
 

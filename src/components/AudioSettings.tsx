@@ -20,29 +20,29 @@ const AudioSettings: React.FC<AudioSettingsProps> = ({ audioSettings, onAudioSet
     <div className="flex flex-col space-y-3">
       <div className="flex items-center space-x-2">
         {audioSettings.enabled ? (
-          <Volume2 className="h-5 w-5 text-sky-300" />
+          <Volume2 className="h-5 w-5 text-indigo-300" />
         ) : (
           <VolumeX className="h-5 w-5 text-gray-400" />
         )}
         <span className="text-white">Áudio</span>
       </div>
 
-      <div className="glass-card p-4">
+      <div className="glass-dark-card p-4 shadow-lg">
         <div className="flex items-center justify-between mb-4">
-          <Label htmlFor="audio-toggle" className="text-white">Som de digitação</Label>
+          <Label htmlFor="audio-toggle" className="text-indigo-100">Som de digitação</Label>
           <Switch 
             id="audio-toggle" 
             checked={audioSettings.enabled}
             onCheckedChange={(enabled) => onAudioSettingsChange({ ...audioSettings, enabled })}
-            className="data-[state=checked]:bg-gradient-to-r data-[state=checked]:from-sky-500 data-[state=checked]:to-app-purple"
+            className="data-[state=checked]:bg-gradient-to-r data-[state=checked]:from-indigo-600 data-[state=checked]:to-purple-600"
           />
         </div>
         
         {audioSettings.enabled && (
           <div className="space-y-3 animate-[fadeInUp_0.3s_ease-out]">
             <div className="flex justify-between items-center">
-              <Label htmlFor="volume-slider" className="text-white">Volume</Label>
-              <span className="text-white/80 bg-white/10 px-2 py-1 rounded text-sm">
+              <Label htmlFor="volume-slider" className="text-indigo-100">Volume</Label>
+              <span className="text-white/90 bg-indigo-900/40 px-2 py-1 rounded text-sm">
                 {Math.round(audioSettings.volume * 100)}%
               </span>
             </div>
