@@ -3,6 +3,17 @@ import phrasesData from '@/data/phrases.json';
 
 export const getPhrasesByLanguage = (language: LanguageCode): Phrase[] => {
   const phrases = (phrasesData as PhraseCollection)[language] || [];
+  
+  // If no phrases found for selected language but it's not Portuguese,
+  // try to get Portuguese phrases and use their translations
+  if (phrases.length === 0 && language !== 'pt') {
+    const ptPhrases = (phrasesData as PhraseCollection)['pt'] || [];
+    return ptPhrases.map(phrase => ({
+      ...phrase,
+      text: phrase.translation[language] || phrase.text,
+    }));
+  }
+  
   return phrases;
 };
 
@@ -12,117 +23,49 @@ export const getPhrasesByDifficulty = (language: LanguageCode, difficulty: Diffi
 };
 
 export const getRandomPhrase = (language: LanguageCode, difficulty: Difficulty = 'easy'): Phrase => {
-  const allPhrases = getPhrasesByLanguage(language);
+  let phrases = getPhrasesByLanguage('pt'); // Always get Portuguese phrases as base
   
-  // If there are no phrases at all for the language, return a default phrase
-  if (!allPhrases || allPhrases.length === 0) {
-    console.log(`No phrases found for language: ${language}, returning default phrase`);
+  // If no phrases at all, return a default phrase
+  if (!phrases || phrases.length === 0) {
     return {
       text: "No phrases available for this language.",
+      difficulty: "easy",
       translation: {
         en: "No phrases available for this language.",
         fr: "Aucune phrase disponible pour cette langue.",
         pt: "Nenhuma frase disponível para este idioma."
-      }
+      },
+      mapping: [
+        {
+          original: "No phrases available for this language.",
+          translated: "No phrases available for this language."
+        }
+      ]
     };
   }
   
-  let filteredPhrases: Phrase[] = [];
+  // Filter by difficulty
+  const filteredPhrases = phrases.filter(phrase => phrase.difficulty === difficulty);
   
-  console.log(`Getting phrase with difficulty: ${difficulty}`);
-  
-  // Filter phrases by difficulty if it exists
-  const phrasesByDifficulty = allPhrases.filter(phrase => phrase.difficulty === difficulty);
-  
-  // If we found phrases with the right difficulty, use those
-  if (phrasesByDifficulty.length > 0) {
-    filteredPhrases = phrasesByDifficulty;
-  } else {
-    // Otherwise, filter phrases by length as a fallback
-    switch (difficulty) {
-      case 'easy':
-        // Easy phrases: short (less than 50 characters)
-        filteredPhrases = allPhrases.filter(phrase => phrase.text.length < 50);
-        break;
-      case 'medium':
-        // Concatenate 2 phrases for medium difficulty
-        const mediumPhrases = allPhrases.filter(phrase => 
-          phrase.text.length >= 50 && phrase.text.length < 100
-        );
-        
-        if (mediumPhrases.length >= 2) {
-          const phrase1 = mediumPhrases[Math.floor(Math.random() * mediumPhrases.length)];
-          const phrase2 = mediumPhrases[Math.floor(Math.random() * mediumPhrases.length)];
-          return {
-            text: `${phrase1.text} ${phrase2.text}`,
-            translation: phrase1.translation
-          };
-        }
-        filteredPhrases = mediumPhrases;
-        break;
-      case 'hard':
-        // Concatenate 3 phrases for hard difficulty
-        const hardPhrases = allPhrases.filter(phrase => 
-          phrase.text.length >= 100 && phrase.text.length < 150
-        );
-        
-        if (hardPhrases.length >= 3) {
-          const phrases = [];
-          for (let i = 0; i < 3; i++) {
-            phrases.push(hardPhrases[Math.floor(Math.random() * hardPhrases.length)]);
-          }
-          return {
-            text: phrases.map(p => p.text).join(' '),
-            translation: phrases[0].translation
-          };
-        }
-        filteredPhrases = hardPhrases;
-        break;
-      case 'expert':
-      case 'very_hard':
-        // Concatenate 4 phrases for expert difficulty
-        const expertPhrases = allPhrases.filter(phrase => phrase.text.length >= 150);
-        
-        if (expertPhrases.length >= 4) {
-          const phrases = [];
-          for (let i = 0; i < 4; i++) {
-            phrases.push(expertPhrases[Math.floor(Math.random() * expertPhrases.length)]);
-          }
-          return {
-            text: phrases.map(p => p.text).join(' '),
-            translation: phrases[0].translation
-          };
-        }
-        filteredPhrases = expertPhrases;
-        break;
-      default:
-        filteredPhrases = allPhrases;
-    }
-  }
-  
-  // If no phrases match difficulty or not enough phrases for concatenation, use all phrases
+  // If no phrases match difficulty, use all phrases
   if (filteredPhrases.length === 0) {
     console.log(`No phrases match difficulty ${difficulty}, using all phrases`);
-    filteredPhrases = allPhrases;
+    phrases = phrases.filter(p => p.mapping && p.translation[language]);
+  } else {
+    phrases = filteredPhrases;
   }
   
-  // Safe check to make sure filteredPhrases is not empty
-  if (filteredPhrases.length === 0) {
-    console.log("No phrases available after filtering, returning default phrase");
+  const randomIndex = Math.floor(Math.random() * phrases.length);
+  const selectedPhrase = phrases[randomIndex];
+  
+  // If language is not Portuguese, transform the phrase
+  if (language !== 'pt' && selectedPhrase.translation[language]) {
     return {
-      text: "No phrases available for this language and difficulty.",
-      translation: {
-        en: "No phrases available for this language and difficulty.",
-        fr: "Aucune phrase disponible pour cette langue et cette difficulté.",
-        pt: "Nenhuma frase disponível para este idioma e dificuldade."
-      }
+      ...selectedPhrase,
+      text: selectedPhrase.translation[language] || selectedPhrase.text,
+      originalText: selectedPhrase.text, // Keep original for reference
     };
   }
-  
-  const randomIndex = Math.floor(Math.random() * filteredPhrases.length);
-  const selectedPhrase = filteredPhrases[randomIndex];
-  
-  console.log(`Selected phrase (${selectedPhrase.text.length} chars): ${selectedPhrase.text.substring(0, 30)}...`);
   
   return selectedPhrase;
 };

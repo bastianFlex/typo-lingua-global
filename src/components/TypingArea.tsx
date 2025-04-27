@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { Button } from '@/components/ui/button';
@@ -6,6 +5,8 @@ import { LanguagePair, Phrase, TypingStatus, Difficulty, TimeOption, AudioFeedba
 import { RotateCcw, Play, Pause, Clock, Award, Volume2, VolumeX, Check, X, ExternalLink } from 'lucide-react';
 import { playKeyClick, playError, playSuccess } from '@/services/audioService';
 import { cn } from '@/lib/utils';
+import TranslationHighlight from '@/components/TranslationHighlight';
+import TextToSpeech from '@/components/TextToSpeech';
 
 interface TypingAreaProps {
   phrase: Phrase;
@@ -16,13 +17,13 @@ interface TypingAreaProps {
   onComplete: (wpm: number, accuracy: number, errors: number, duration: number) => void;
 }
 
-const TypingArea: React.FC<TypingAreaProps> = ({ 
-  phrase, 
-  languagePair, 
-  difficulty, 
+const TypingArea: React.FC<TypingAreaProps> = ({
+  phrase,
+  languagePair,
+  difficulty,
   timeOption,
   audioSettings,
-  onComplete 
+  onComplete
 }) => {
   const { toast } = useToast();
   const [userInput, setUserInput] = useState('');
@@ -56,26 +57,20 @@ const TypingArea: React.FC<TypingAreaProps> = ({
     const timeInSeconds = (endTime - startTime) / 1000;
     if (timeInSeconds <= 0) return;
     
-    // Accurately count words - either by spaces or standardized word length
     const words = targetText.trim().split(/\s+/).length;
     const wpm = Math.round((words / timeInSeconds) * 60);
 
     let correct = 0;
     let errors = 0;
 
-    // Compare character by character
     for (let i = 0; i < Math.max(userInput.length, targetText.length); i++) {
       if (i >= targetText.length) {
-        // Extra typed characters
         errors++;
       } else if (i >= userInput.length) {
-        // Missing characters
         errors++;
       } else if (userInput[i] !== targetText[i]) {
-        // Wrong characters
         errors++;
       } else {
-        // Correct characters
         correct++;
       }
     }
@@ -130,7 +125,6 @@ const TypingArea: React.FC<TypingAreaProps> = ({
     if (status !== 'started') return;
 
     if (isPaused) {
-      // Resuming
       setIsPaused(false);
       if (timeOption !== 'infinite') {
         timerRef.current = setInterval(() => {
@@ -144,7 +138,6 @@ const TypingArea: React.FC<TypingAreaProps> = ({
         }, 1000);
       }
     } else {
-      // Pausing
       setIsPaused(true);
       if (timerRef.current) {
         clearInterval(timerRef.current);
@@ -203,18 +196,15 @@ const TypingArea: React.FC<TypingAreaProps> = ({
   }, [endTime, calculateStats]);
 
   useEffect(() => {
-    // Check for completion
     if (status === 'started' && userInput === targetText) {
       finishTyping();
     }
   }, [userInput, targetText, status, toast]);
 
-  // Reset when difficulty or time changes
   useEffect(() => {
     resetTyping();
   }, [difficulty, timeOption]);
 
-  // Cleanup on unmount
   useEffect(() => {
     return () => {
       if (timerRef.current) {
@@ -228,11 +218,9 @@ const TypingArea: React.FC<TypingAreaProps> = ({
       const newValue = e.target.value;
       setUserInput(newValue);
 
-      // Update character stats in real time
       let correct = 0;
       let error = 0;
 
-      // Check each character typed
       for (let i = 0; i < newValue.length; i++) {
         if (i < targetText.length) {
           if (newValue[i] === targetText[i]) {
@@ -241,14 +229,12 @@ const TypingArea: React.FC<TypingAreaProps> = ({
             error++;
           }
         } else {
-          // Extra characters typed beyond the target text
           error++;
         }
       }
 
       setCharStats({ correct, error });
 
-      // Play sound feedback for the last character typed
       if (newValue.length > 0) {
         const lastIndex = newValue.length - 1;
         if (audioSettings.enabled) {
@@ -321,7 +307,6 @@ const TypingArea: React.FC<TypingAreaProps> = ({
     }
   };
 
-  // Progress calculation (only for finite time)
   const progressPercent = timeOption !== 'infinite' && remainingTime !== Infinity
     ? 100 - (remainingTime / (parseInt(timeOption) * 60)) * 100
     : 0;
@@ -332,11 +317,33 @@ const TypingArea: React.FC<TypingAreaProps> = ({
         <div className="mb-6 text-2xl font-semibold bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
           {phrase.text}
         </div>
-        {translation && (
-          <div className="text-gray-400 italic text-sm">
-            {translation}
-          </div>
+        
+        {phrase.mapping && (
+          <TranslationHighlight
+            originalText={phrase.text}
+            translatedText={phrase.translation[languagePair.target] || ''}
+            mapping={phrase.mapping}
+            sourceLang={languagePair.source}
+            targetLang={languagePair.target}
+          />
         )}
+        
+        <div className="flex justify-end space-x-2 mt-4">
+          <TextToSpeech
+            text={phrase.text}
+            language={languagePair.source}
+            enabled={audioSettings.enabled}
+            volume={audioSettings.volume}
+          />
+          {phrase.translation[languagePair.target] && (
+            <TextToSpeech
+              text={phrase.translation[languagePair.target] || ''}
+              language={languagePair.target}
+              enabled={audioSettings.enabled}
+              volume={audioSettings.volume}
+            />
+          )}
+        </div>
       </div>
 
       {status === 'idle' ? (
