@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Languages, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -11,11 +10,6 @@ import {
 import { LanguageCode, LanguagePair } from '@/types';
 
 const languagePairs: { id: string; label: string; pair: LanguagePair }[] = [
-  {
-    id: 'pt',
-    label: 'Português',
-    pair: { source: 'pt', target: 'pt' }
-  },
   {
     id: 'en-pt',
     label: 'Inglês → Português',

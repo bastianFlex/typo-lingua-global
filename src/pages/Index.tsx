@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import Layout from '@/components/Layout';
@@ -26,7 +25,6 @@ const Index: React.FC = () => {
   const [results, setResults] = useState<TypingResult[]>([]);
   const [activeTab, setActiveTab] = useState('typing');
   
-  // State variables for the features
   const [difficulty, setDifficulty] = useState<Difficulty>('easy');
   const [timeOption, setTimeOption] = useState<TimeOption>('1');
   const [audioSettings, setAudioSettings] = useState<AudioFeedback>({
@@ -35,13 +33,11 @@ const Index: React.FC = () => {
   });
 
   useEffect(() => {
-    // Load saved results
     const savedResults = getResults();
     setResults(savedResults);
   }, []);
 
   useEffect(() => {
-    // Load a new phrase when language or difficulty changes
     const phrase = getRandomPhrase(languagePair.source, difficulty);
     setCurrentPhrase(phrase);
   }, [languagePair, difficulty]);
@@ -90,7 +86,6 @@ const Index: React.FC = () => {
   return (
     <Layout>
       <div className="max-w-6xl mx-auto px-4">
-        {/* Settings Panel with gradient border */}
         <div className="glass-card mb-8 p-6 gradient-border">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <LanguageSelector
@@ -115,42 +110,44 @@ const Index: React.FC = () => {
           </div>
         </div>
 
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid grid-cols-2 mb-8 glass-card p-1 rounded-xl">
-            <TabsTrigger 
-              value="typing" 
-              className="text-lg py-3 rounded-lg data-[state=active]:bg-gradient-to-r data-[state=active]:from-app-light-blue/90 data-[state=active]:to-app-purple/90 data-[state=active]:text-white transition-all duration-300"
-            >
-              Digitação
-            </TabsTrigger>
-            <TabsTrigger 
-              value="history" 
-              className="text-lg py-3 rounded-lg data-[state=active]:bg-gradient-to-r data-[state=active]:from-app-light-blue/90 data-[state=active]:to-app-purple/90 data-[state=active]:text-white transition-all duration-300"
-            >
-              Histórico
-            </TabsTrigger>
-          </TabsList>
-          
-          <TabsContent value="typing" className="mt-0 animate-[fadeInUp_0.4s_ease-out]">
-            {currentPhrase && (
-              <TypingArea
-                phrase={currentPhrase}
-                languagePair={languagePair}
-                difficulty={difficulty}
-                timeOption={timeOption}
-                audioSettings={audioSettings}
-                onComplete={handleTypingComplete}
-              />
-            )}
-          </TabsContent>
-          
-          <TabsContent value="history" className="mt-0 animate-[fadeInUp_0.4s_ease-out]">
-            <div className="glass-card gradient-border p-6">
-              <h2 className="text-2xl font-bold mb-6 gradient-text">Seu Histórico de Resultados</h2>
-              <HistoryResults results={results} />
-            </div>
-          </TabsContent>
-        </Tabs>
+        <div className="glass-card p-6 mb-8">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+            <TabsList className="grid w-[400px] max-w-full grid-cols-2 mx-auto mb-8 glass-card p-1 rounded-xl">
+              <TabsTrigger 
+                value="typing" 
+                className="text-lg py-3 rounded-lg data-[state=active]:bg-gradient-to-r data-[state=active]:from-emerald-600/90 data-[state=active]:to-blue-600/90 data-[state=active]:text-white transition-all duration-300"
+              >
+                Digitação
+              </TabsTrigger>
+              <TabsTrigger 
+                value="history" 
+                className="text-lg py-3 rounded-lg data-[state=active]:bg-gradient-to-r data-[state=active]:from-emerald-600/90 data-[state=active]:to-blue-600/90 data-[state=active]:text-white transition-all duration-300"
+              >
+                Histórico
+              </TabsTrigger>
+            </TabsList>
+            
+            <TabsContent value="typing" className="mt-0 animate-[fadeInUp_0.4s_ease-out]">
+              {currentPhrase && (
+                <TypingArea
+                  phrase={currentPhrase}
+                  languagePair={languagePair}
+                  difficulty={difficulty}
+                  timeOption={timeOption}
+                  audioSettings={audioSettings}
+                  onComplete={handleTypingComplete}
+                />
+              )}
+            </TabsContent>
+            
+            <TabsContent value="history" className="mt-0 animate-[fadeInUp_0.4s_ease-out]">
+              <div className="glass-card gradient-border p-6">
+                <h2 className="text-2xl font-bold mb-6 gradient-text">Seu Histórico de Resultados</h2>
+                <HistoryResults results={results} />
+              </div>
+            </TabsContent>
+          </Tabs>
+        </div>
       </div>
     </Layout>
   );
